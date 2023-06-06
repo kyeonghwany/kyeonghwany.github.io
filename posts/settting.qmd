@@ -218,3 +218,9 @@ conda install -c conda-forge matplotlib
 conda install -c conda-forge scikit-learn
 conda install -c conda-forge jupyter
 ```
+
+
+# window에서 git 설치
+
+git config --global user.email "example@email.com"
+git config --global user.name "username"
