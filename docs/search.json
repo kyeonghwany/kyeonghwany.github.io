@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "portfolio",
+    "section": "",
+    "text": "안녕하세요. 데이터 분석과 AI를 통해 다양한 일을 하고 싶어하는 김경환입니다. 저는 다음과 같은 데이터 분석과 관련된 스킬과 프로젝트 경험이 있습니다."
+  },
+  {
+    "objectID": "about.html#r",
+    "href": "about.html#r",
+    "title": "portfolio",
+    "section": "R",
+    "text": "R\n\n데이터 전처리\nEDA\nML/DL\n패키지 관리"
+  },
+  {
+    "objectID": "about.html#python",
+    "href": "about.html#python",
+    "title": "portfolio",
+    "section": "Python",
+    "text": "Python\n\n데이터 전처리\nEDA\nML/DL\n크롤링"
+  },
+  {
+    "objectID": "about.html#차량-이미지-정보-인식-개발2022.07",
+    "href": "about.html#차량-이미지-정보-인식-개발2022.07",
+    "title": "portfolio",
+    "section": "차량 이미지 정보 인식 개발(2022.07)",
+    "text": "차량 이미지 정보 인식 개발(2022.07)\n\n차량 이미지에서 차량 부품별 인식\n차량 사진에서 베경 제거\n차량 사진을 찍은 각도 추출 모델 개발\n프로젝트 상세"
+  },
+  {
+    "objectID": "about.html#우편서비스-배달업무환경-분석2022.02",
+    "href": "about.html#우편서비스-배달업무환경-분석2022.02",
+    "title": "portfolio",
+    "section": "우편서비스 배달업무환경 분석(2022.02)",
+    "text": "우편서비스 배달업무환경 분석(2022.02)\n\n배달업무 평준화 및 운영 효율화 설계를 위한 배달업무환경 분석\n초과근무시간 예측을 위한 EDA 및 feature engineering\n초과근무시간 예측 모델링\n프로젝트 상세"
+  },
+  {
+    "objectID": "about.html#수출동향파악을-위한-수출물량-시계열-분석2022.02",
+    "href": "about.html#수출동향파악을-위한-수출물량-시계열-분석2022.02",
+    "title": "portfolio",
+    "section": "수출동향파악을 위한 수출물량 시계열 분석(2022.02)",
+    "text": "수출동향파악을 위한 수출물량 시계열 분석(2022.02)\n\n공공데이터 API를 이용한 수출물량 자동 수집기 개발\n주식시장 데이터, 경제지수 데이터 수집\n국가별 주요 수출 품목 시계열 분석\n프로젝트 상세"
+  },
+  {
+    "objectID": "about.html#작업복-세탁소-수요-예측-및-입지-분석2021.08",
+    "href": "about.html#작업복-세탁소-수요-예측-및-입지-분석2021.08",
+    "title": "portfolio",
+    "section": "작업복 세탁소 수요 예측 및 입지 분석(2021.08)",
+    "text": "작업복 세탁소 수요 예측 및 입지 분석(2021.08)\n\n공장 위치정보 및 특성, 작업복 세탁량 데이터 전처리\n작업복 세탁소가 필요한 공장의 특성\n공장별 작업복 세탁 수요 예측\n작업복 세탁소 최적 입지 시각화\n프로젝트 상세"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "김경환",
+    "section": "",
+    "text": "안녕하세요. 데이터 분석과 AI를 통해 다양한 일을 하고 싶어하는 김경환입니다."
+  },
+  {
+    "objectID": "posts/quarto.html",
+    "href": "posts/quarto.html",
+    "title": "quarto tip!",
+    "section": "",
+    "text": "quarto를 사용하면서 알아낸 tip 정리\nquarto 공식문서"
+  },
+  {
+    "objectID": "posts/quarto.html#코드-작성",
+    "href": "posts/quarto.html#코드-작성",
+    "title": "quarto tip!",
+    "section": "코드 작성",
+    "text": "코드 작성\nqmd에서 코드블럭을을 작성할 때 ```로 감싸서 작성\n```\ncode\n```\n언어를 지정하여 언어에 맞는 디자인을 적용할 수 있다. 140가지 언어를 지원.\ndefalut를 사용하면 지원하지 않는는 언어도 유사하게 처리를 해준다.\n``` r\ncode &lt;- 1\n```\n``` defalut\ncode = 1\n```"
+  },
+  {
+    "objectID": "posts/quarto.html#callout-blocks",
+    "href": "posts/quarto.html#callout-blocks",
+    "title": "quarto tip!",
+    "section": "Callout Blocks",
+    "text": "Callout Blocks\nCallout blocks는 글에서 강조를 하거나 보충, 주의를 표현할 수 있도록 합니다.\n\ninput\n\n:::{.callout-note}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nNote\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important."
+  },
+  {
+    "objectID": "posts/quarto.html#단축키-표시",
+    "href": "posts/quarto.html#단축키-표시",
+    "title": "quarto tip!",
+    "section": "단축키 표시",
+    "text": "단축키 표시\n\ninput\n\n{{&lt; kbd Shift-Ctrl-P &gt;}}\n\noutput\n\nShift-Ctrl-P"
+  },
+  {
+    "objectID": "posts/settting.html",
+    "href": "posts/settting.html",
+    "title": "세팅법 정리",
+    "section": "",
+    "text": "컴퓨터 초기화 후 세팅하는 법 찾기 귀찮아서 미리미리 모아둠\n\nR설치(jdk도 추가)\n\nc드라이브에 R폴더 생성\n설치파일 다운로드\n\n\nR\nRstudio\nRtools\njdk\n\n\nR과 Rstudio는 C:\\R에 관리자권한으로 설치(기본값으로)\njdk, Rtools는 기본 경로에 설치(기본값으로).\n자주 사용하는 필수 패키지 목록\n\n\ntidyverse\ncaret\n\n\n\nanaconda3 설치\n\nanaconda3 설치파일 다운로드 및 설치(기본값으로)\n\n\n\n\nVS code 설치\n\nvs code 설치링크\nms store에도 있음\npath에 추가 옵션 선택\n\n\n\nwindow11에서 wsl을 이용해 linux 설치\n\nms 공식 설명서1\nms 공식 설명서2\n\n\npowershell열고 다음을 입력하여 linux설치\n\nwsl --install\n설치 후 컴퓨터를 다시 시작\n\n사용자 이름 및 암호 설정\n\n컴퓨터를 다시 시작하면 바로 우분투 터미널 창이 열린다. 사용자 이름과 암호를 입력. 입력한 계정은 sudo 권한이 부여된다.\n\n패키지 업데이트 및 업그레이드\n\nsudo apt update && sudo apt upgrade\n\nvs code 확장팩 설치 및 연결\n\n\nremote dev 확장팩 설치\n우분투에서 code .을 입력하면 vs code로 연결됨\n윈도우 vs code에서 ctrl+shift+p를 통해서도 연결 가능\n\n\n\n우분투에서 R와 Rstudio-server 설치\n\n참고자료, 변할 수 있으니 확인 (지금은 우분투 22.04)\n\nrstudio-server download\nR 설치 간편설명\nR 설치 설명\n\n\n\nR설치\n\n# update indices\nsudo apt update -qq\n# install two helper packages we need\nsudo apt install --no-install-recommends software-properties-common dirmngr\n# add the signing key (by Michael Rutter) for these repos\n# To verify key, run gpg --show-keys /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc \n# Fingerprint: E298A3A825C0D65DFD57CBB651716619E084DAB9\nwget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc\n# add the R 4.0 repo from CRAN -- adjust 'focal' to 'groovy' or 'bionic' as needed\nsudo add-apt-repository \"deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/\"\nsudo apt install --no-install-recommends r-base\nsudo apt-get install r-base-dev\nsudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+\n$(lsb_release -cs) = jammy, 우분투22.04의 코드네임\n\nrstudio-server 설치\n\nsudo apt-get install gdebi-core\nwget https://download2.rstudio.org/server/jammy/amd64/rstudio-server-2023.03.1-446-amd64.deb\nsudo gdebi rstudio-server-2023.03.1-446-amd64.deb\n\n실행\n\nsudo rstudio-server start\n실행 후 http://{local ip주소}:8787/에 접속\n\n\n우분투에서 conda 설치\n참고자료\n\nsystem repositories 업데이트\n\nsudo apt update\n\ncurl 패키지 설치\n\nsudo apt install curl -y\n\nanaconda 설치\n\n/tmp 디렉토리로 이동\ncd /tmp\n설치파일 다운로드, 여기서 원하는 버전 선택\ncurl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh\n‘SHA-256’ 다운로드\nsha256sum anaconda.sh\n설치 프로그램 실행\nbash anaconda.sh\n\n.bashrc에 변경된 환경설정 활성화\n\nsource ~/.bashrc\n\n설치 확인\n\nconda list\n\n기타 설정\n\n\nconda 설정 보기\n\nconda config --show\n\nconda 자동 활성화 모드 on/off\n\nconda config --set auto_activate_base {True/False}\n\nconda 실행/종료\n\nconda activate\nconda deactivate\n\n\nconda에서 자주 설치하는 패키지\nconda 패키지 검색\nconda create -n 가상환경이름 python=3.7.13\nconda install pytorch torchvision torchaudio cpuonly -c pytorch\nconda install -c conda-forge pandas\nconda install -c conda-forge matplotlib\nconda install -c conda-forge scikit-learn\nconda install -c conda-forge jupyter"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "posts",
+    "section": "",
+    "text": "quarto tip!\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\n세팅법 정리\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\nNo matching items"
+  }
+]

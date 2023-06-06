@@ -1,0 +1,72 @@
+---
+title: "quarto tip!"
+author: "kyeonghwany"
+---
+
+quarto를 사용하면서 알아낸 tip 정리
+
+[quarto 공식문서](https://quarto.org/)
+
+# 기본적인 마크다운 작성
+
+해당 팁은 .qmd 안에서만 작동할 수도 있음.
+
+## 코드 작성
+
+qmd에서 코드블럭을을 작성할 때 ```` ``` ````로 감싸서 작성
+
+```` markdown
+```
+code
+```
+````
+
+언어를 지정하여 언어에 맞는 디자인을 적용할 수 있다. [140가지 언어를 지원.](https://github.com/jgm/skylighting/tree/master/skylighting-core/xml) 
+
+`defalut`를 사용하면 지원하지 않는는 언어도 유사하게 처리를 해준다.
+
+```` markdown
+``` r
+code <- 1
+```
+````
+
+```` markdown
+``` defalut
+code = 1
+```
+````
+
+## Callout Blocks
+
+Callout blocks는 글에서 강조를 하거나 보충, 주의를 표현할 수 있도록 합니다.
+
+> input
+
+```markdown
+:::{.callout-note}
+Callout blocks에는 5가지 옵션을 사용할 수 있습니다.
+: `note`, `tip`, `warning`, `caution`, and `important`.
+:::
+```
+
+> output
+
+:::{.callout-note}
+Callout blocks에는 5가지 옵션을 사용할 수 있습니다.
+: `note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+## 단축키 표시
+
+> input
+
+```markdown
+{{{< kbd Shift-Ctrl-P >}}}
+```
+
+> output
+
+{{< kbd Shift-Ctrl-P >}}
+
+# HTML

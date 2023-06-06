@@ -1,0 +1,79 @@
+---
+title: "portfolio"
+---
+
+안녕하세요. 데이터 분석과 AI를 통해 다양한 일을 하고 싶어하는 김경환입니다. 저는 다음과 같은 데이터 분석과 관련된 스킬과 프로젝트 경험이 있습니다.
+
+# contact
+
+-   [github](https://github.com/kyeonghwany)
+
+-   rud7674\@gmail.com
+
+-   [blog](https://nackta.github.io/)
+
+# skills
+
+## R
+
+-   데이터 전처리
+
+-   EDA
+
+-   ML/DL
+
+-   패키지 관리
+
+## Python
+
+-   데이터 전처리
+
+-   EDA
+
+-   ML/DL
+
+-   크롤링
+
+# Project list
+
+## 차량 이미지 정보 인식 개발(2022.07)
+
+-   차량 이미지에서 차량 부품별 인식
+
+-   차량 사진에서 베경 제거
+
+-   차량 사진을 찍은 각도 추출 모델 개발
+
+-   [프로젝트 상세](https://drive.google.com/file/d/1CXLpfBfJhPYrBMrjOHVmabXRp89nWutW/view?usp=share_link)
+
+## 우편서비스 배달업무환경 분석(2022.02)
+
+-   배달업무 평준화 및 운영 효율화 설계를 위한 배달업무환경 분석
+
+-   초과근무시간 예측을 위한 EDA 및 feature engineering
+
+-   초과근무시간 예측 모델링
+
+-   [프로젝트 상세](https://drive.google.com/file/d/15GbolhdYloIrFsUJy0-skFzFJBMCbSAt/view?usp=share_link)
+
+## 수출동향파악을 위한 수출물량 시계열 분석(2022.02)
+
+-   공공데이터 API를 이용한 수출물량 자동 수집기 개발
+
+-   주식시장 데이터, 경제지수 데이터 수집
+
+-   국가별 주요 수출 품목 시계열 분석
+
+-   [프로젝트 상세](https://drive.google.com/file/d/1urQF1zCTP3lLPFPViN8HKqlBHrSf_meq/view?usp=share_link)
+
+## 작업복 세탁소 수요 예측 및 입지 분석(2021.08)
+
+-   공장 위치정보 및 특성, 작업복 세탁량 데이터 전처리
+
+-   작업복 세탁소가 필요한 공장의 특성
+
+-   공장별 작업복 세탁 수요 예측
+
+-   작업복 세탁소 최적 입지 시각화
+
+-   [프로젝트 상세](https://drive.google.com/file/d/1ZcOIvbB3nTSGDUfuXujgmcV7CYm0YnOd/view?usp=share_link)
