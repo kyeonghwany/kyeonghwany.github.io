@@ -220,7 +220,12 @@ conda install -c conda-forge jupyter
 ```
 
 
-# window에서 git 설치
+# window에서 git 설치 및 연동
 
+먼저 git
+
+
+```powershell
 git config --global user.email "example@email.com"
 git config --global user.name "username"
+```

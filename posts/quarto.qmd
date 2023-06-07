@@ -21,7 +21,7 @@ code
 ```
 ````
 
-언어를 지정하여 언어에 맞는 디자인을 적용할 수 있다. [140가지 언어를 지원.](https://github.com/jgm/skylighting/tree/master/skylighting-core/xml) 
+언어를 지정하여 언어에 맞는 디자인을 적용할 수 있다. [140가지 언어를 지원.](https://github.com/jgm/skylighting/tree/master/skylighting-core/xml)
 
 `defalut`를 사용하면 지원하지 않는는 언어도 유사하게 처리를 해준다.
 
@@ -37,13 +37,32 @@ code = 1
 ```
 ````
 
+만약 코드의 파일명 또는 프로그램명을 명시하고싶다면,
+
++----------------+-----------------------------------+
+| input          |                                   |
+|                | ```` markdown                     |
+|                | ``` {.r filename="tmp.r"}         |
+|                | code = 1                          |
+|                | ```                               |
+|                | ````                              |
+|                |                                   |
++----------------+-----------------------------------+
+| output         |                                   |
+|                | ``` {.r filename="tmp.r"}         |
+|                | code = 1                          |
+|                | ```                               |
+|                |                                   |
++----------------+-----------------------------------+
+
+
 ## Callout Blocks
 
 Callout blocks는 글에서 강조를 하거나 보충, 주의를 표현할 수 있도록 합니다.
 
 > input
 
-```markdown
+``` markdown
 :::{.callout-note}
 Callout blocks에는 5가지 옵션을 사용할 수 있습니다.
 : `note`, `tip`, `warning`, `caution`, and `important`.
@@ -52,16 +71,18 @@ Callout blocks에는 5가지 옵션을 사용할 수 있습니다.
 
 > output
 
-:::{.callout-note}
+::: callout-note
+
 Callout blocks에는 5가지 옵션을 사용할 수 있습니다.
-: `note`, `tip`, `warning`, `caution`, and `important`.
+
+:   `note`, `tip`, `warning`, `caution`, and `important`.
 :::
 
 ## 단축키 표시
 
 > input
 
-```markdown
+``` markdown
 {{{< kbd Shift-Ctrl-P >}}}
 ```
 
@@ -70,3 +91,51 @@ Callout blocks에는 5가지 옵션을 사용할 수 있습니다.
 {{< kbd Shift-Ctrl-P >}}
 
 # HTML
+
+# Publishing
+
+quarto 문서를 만들었다면 다양한 루트로 Publishing이 가능하다. 
+
+## github pages
+
+github pages는 docs라는 디렉토리에서 렌더링 되기때문에 _quarto.yml에 다음 코드를 추가해줘야 한다.
+
+``` {.yaml filename="_quarto.yml"}
+project:
+  type: website
+  output-dir: docs
+```
+
+그리고 `.nojekyll`도 추가, window11에서 Rstudio terminal를 이용 시 `copy`가 실행되지 않았는데 오히려 `touch`는 잘 작동되었다.  
+
++---------------+---------------------------------+
+| Mac/Linux     | ``` {.bash filename="Terminal"} |
+|               | touch .nojekyll                 |
+|               | ```                             |
++---------------+---------------------------------+
+| Windows       | ``` {.bash filename="Terminal"} |
+|               | copy NUL .nojekyll              |
+|               | ```                             |
++---------------+---------------------------------+
+
+github pages에 Publishing할때 필요 없는 디렉토리는 `.gitignore`에 추가하는 것이 좋다. github pages에서 `_site`, `_book`등 디렉토리는 모두 `docs`에서 render되기 때문이다.
+
+```{.bash filename=".gitignore"}
+/.quarto/
+/_site/
+```
+
+만약 이미 push했다면,
+
+```{.bash filename="Terminal"}
+git rm -r _site
+```
+
+이후 render 후 git에 push
+
+``` {.bash filename="Terminal"}
+quarto render
+git push
+```
+
+[컴퓨터와 github를 연동하는 방법은 따로 포스팅]()
