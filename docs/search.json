@@ -123,6 +123,6 @@
     "href": "posts/gittip.html#터미널",
     "title": "git tip!",
     "section": "터미널",
-    "text": "터미널\ncd ~\nssh-keygen"
+    "text": "터미널\ncd ~\nssh-keygen\ncd ~/.ssh\ncat id_rsa.pub\n이후 나타난 문자열을 복사하여 github에 등록"
   }
 ]
