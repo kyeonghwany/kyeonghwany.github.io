@@ -1,0 +1,35 @@
+---
+title: "git tip!"
+author: "kyeonghwany"
+---
+
+git과 github 관련된 팁 정리
+
+먼저 git설치 및 github계정 생성 후 git bash에 다음을 입력.
+
+``` bash
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
+# github 연결
+
+shh키를 생성하여 local git과 github를 연결.
+
+## rstudio 버전
+
+1. rstudio > Tools > Global Options > Git.SVN에서 ssh키 생성
+
+2. github계정에 ssh키 등록
+
+## 터미널
+
+``` powershell
+cd ~
+ssh-keygen
+cd ~/.ssh
+cat id_rsa.pub
+```
+
+이후 나타난 문자열을 복사하여 github에 등록
+
