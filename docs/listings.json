@@ -3,6 +3,7 @@
     "listing": "/posts.html",
     "items": [
       "/posts/gittip.html",
+      "/posts/preprocess.html",
       "/posts/quarto.html",
       "/posts/settting.html"
     ]
