@@ -130,6 +130,13 @@
     "href": "posts.html",
     "title": "posts",
     "section": "",
-    "text": "git tip!\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\npreprocessing tip!\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\nquarto tip!\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\n세팅법 정리\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\nNo matching items"
+    "text": "bayesian with stan\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\ngit tip!\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\npreprocessing tip!\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\nquarto tip!\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\n세팅법 정리\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/bayesian_with_stan.html",
+    "href": "posts/bayesian_with_stan.html",
+    "title": "bayesian with stan",
+    "section": "",
+    "text": "bayesian 이론 정리 및 stan을 통한 분석\n\nstan 사용 환경 설정\nr에서 stan을 활용하기 위해서는 rtools 설치가 필요하다. windows 환경에서 rtools4.2부터는 별도의 환경변수 설정 없이 설치만 하면 이용이 가능하다고 했지만 stan은 다른 설정이 필요한 듯하다.\n해결방법을 찾을 때까지는 wsl ubuntu에서 stan을 사용\n\n\n단순회귀모형\ndata {\n  int N;\n  real X[N];\n  real Y[N];\n}\n\nparameters {\n  real a;\n  real b;\n  real mu;\n  real&lt;lower=0&gt; sigma;\n}\n\nmodel {\n  for (n in 1:N) {\n    Y[n] ~ normal(a + b * X[n], sigma);\n  }\n}\nlibrary(rstan)\ndata &lt;- list(N=nrow(cars), X=cars$dist, Y=cars$speed)\nfit &lt;- stan(file = \"lm.stan\", data = data, seed=1234)\n\nfit\n&gt; fit\nInference for Stan model: lm.\n4 chains, each with iter=2000; warmup=1000; thin=1; \npost-warmup draws per chain=1000, total post-warmup draws=4000.\n\n               mean      se_mean           sd          2.5%           25%           50%         75%         97.5% n_eff Rhat\na      8.290000e+00 2.000000e-02 9.300000e-01  6.490000e+00  7.650000e+00  8.280000e+00  8.9100e+00  1.008000e+01  2785 1.00\nb      1.700000e-01 0.000000e+00 2.000000e-02  1.300000e-01  1.500000e-01  1.700000e-01  1.8000e-01  2.000000e-01  2754 1.00\nmu    -1.028316e+15 4.466057e+15 8.995785e+15 -1.499126e+16 -6.540879e+15 -8.474066e+14  5.6003e+14  2.555615e+16     4 2.08\nsigma  3.240000e+00 1.000000e-02 3.400000e-01  2.650000e+00  3.000000e+00  3.210000e+00  3.4500e+00  4.000000e+00  3346 1.00\nlp__  -8.189000e+01 3.000000e-02 1.250000e+00 -8.511000e+01 -8.250000e+01 -8.157000e+01 -8.0950e+01 -8.043000e+01  1616 1.00\n\nSamples were drawn using NUTS(diag_e) at Wed Jun 14 23:46:43 2023.\nFor each parameter, n_eff is a crude measure of effective sample size,\nand Rhat is the potential scale reduction factor on split chains (at \nconvergence, Rhat=1)."
   }
 ]

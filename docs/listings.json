@@ -2,6 +2,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/bayesian_with_stan.html",
       "/posts/gittip.html",
       "/posts/preprocess.html",
       "/posts/quarto.html",
