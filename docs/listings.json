@@ -3,6 +3,7 @@
     "listing": "/posts.html",
     "items": [
       "/posts/bayesian_with_stan.html",
+      "/posts/data_standard.html",
       "/posts/gittip.html",
       "/posts/preprocess.html",
       "/posts/pypots_tutorial.html",

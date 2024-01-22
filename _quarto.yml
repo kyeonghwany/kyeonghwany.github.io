@@ -3,15 +3,19 @@ project:
   output-dir: docs
 
 website:
-  title: "kyeonghwany blog"
+  title: "Kyeonghwany Blog"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: portfolio
       - href: posts.qmd
-        text: posts
+        text: Posts
+      - href: side_project.qmd
+        text: Side Project
+      - href: mytip.qmd
+        text: Mytip
+      - href: about.qmd
+        text: Portfolio
 
 format:
   html:
