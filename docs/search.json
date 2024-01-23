@@ -56,6 +56,13 @@
     "text": "안녕하세요. 데이터 분석과 AI를 통해 다양한 일을 하고 싶어하는 김경환입니다."
   },
   {
+    "objectID": "mytip.html",
+    "href": "mytip.html",
+    "title": "MY Tip",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
     "objectID": "posts/bayesian_with_stan.html",
     "href": "posts/bayesian_with_stan.html",
     "title": "bayesian with stan",
@@ -163,8 +170,15 @@
   {
     "objectID": "posts.html",
     "href": "posts.html",
-    "title": "posts",
+    "title": "Posts",
     "section": "",
     "text": "bayesian with stan\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\n공공데이터 표준화 지침 정리\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\ngit tip!\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\npreprocessing tip!\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\npypots tutorial\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\nquarto tip!\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\n세팅법 정리\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Project",
+    "section": "",
+    "text": "No matching items"
   }
 ]

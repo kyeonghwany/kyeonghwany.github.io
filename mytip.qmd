@@ -1,7 +1,7 @@
 ---
-title: "Posts"
+title: "MY Tip"
 listing:
-  contents: posts
+  contents: mytip
   sort: "date desc"
   type: default
   categories: true

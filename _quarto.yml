@@ -4,18 +4,28 @@ project:
 
 website:
   title: "Kyeonghwany Blog"
+  
+  search: true
+  
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: posts.qmd
         text: Posts
-      - href: side_project.qmd
-        text: Side Project
+      - href: project.qmd
+        text: Project
       - href: mytip.qmd
         text: Mytip
       - href: about.qmd
         text: Portfolio
+        
+  comments: 
+    giscus:
+      repo: kyeonghwany/kyeonghwany.github.io
+      language: ko
+      
+  google-analytics: "G-NDDS4J9T4S"
 
 format:
   html:
