@@ -17,6 +17,8 @@
   },
   {
     "listing": "/project.html",
-    "items": []
+    "items": [
+      "/project/project_data_QC.html"
+    ]
   }
 ]

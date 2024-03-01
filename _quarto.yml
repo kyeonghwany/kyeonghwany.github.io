@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Kyeonghwany Blog"
+  site-url: 'https://kyeonghwany.github.io'
+  site-path: '/'
   
   search: true
   
