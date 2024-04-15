@@ -7,6 +7,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/kyeonghwany
+    - icon: envelope
+      text: Email | james160601@gmail.com
+      href: mailto:james160601@gmail.com
       
 comments: false
 ---
