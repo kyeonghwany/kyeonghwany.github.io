@@ -1,24 +1,23 @@
 [
   {
     "listing": "/mytip.html",
-    "items": []
+    "items": [
+      "/mytip/quarto.html",
+      "/mytip/gittip.html",
+      "/mytip/settting.html"
+    ]
   },
   {
     "listing": "/posts.html",
     "items": [
       "/posts/bayesian_with_stan.html",
-      "/posts/data_standard.html",
-      "/posts/gittip.html",
-      "/posts/preprocess.html",
-      "/posts/pypots_tutorial.html",
-      "/posts/quarto.html",
-      "/posts/settting.html"
+      "/posts/pypots_tutorial.html"
     ]
   },
   {
     "listing": "/project.html",
     "items": [
-      "/project/project_data_QC.html"
+      "/project/2024-04-16-opendata-qc.html"
     ]
   }
 ]

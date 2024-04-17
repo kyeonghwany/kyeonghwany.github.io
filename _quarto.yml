@@ -15,12 +15,12 @@ website:
         text: Home
       - href: posts.qmd
         text: Posts
-      - href: project.qmd
-        text: Project
       - href: mytip.qmd
         text: Mytip
       - href: about.qmd
         text: Portfolio
+      - href: project.qmd
+        text: Project
         
   comments: 
     giscus:
@@ -34,6 +34,9 @@ format:
     theme: minty
     css: styles.css
     toc: true
-
-editor: visual
-
+    
+    code-fold: true
+    code-tools: true
+    code-copy: true
+    code-line-numbers: false
+    code-block-background: true

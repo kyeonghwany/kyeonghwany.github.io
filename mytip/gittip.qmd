@@ -1,6 +1,10 @@
 ---
 title: "git tip!"
-author: "kyeonghwany"
+author: "김경환"
+date: 2023-07-05
+date-modified: last-modified
+categories:
+  - git
 ---
 
 git과 github 관련된 팁 정리

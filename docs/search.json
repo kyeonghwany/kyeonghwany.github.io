@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "portfolio",
     "section": "",
-    "text": "안녕하세요. 데이터 분석과 AI를 통해 다양한 일을 하고 싶어하는 김경환입니다. 저는 다음과 같은 데이터 분석과 관련된 스킬과 프로젝트 경험이 있습니다."
+    "text": "안녕하세요, 데이터 분석가 김경환입니다. 저는 데이터를 통해 문제를 정의하고 다양한 데이터를 활용하여 문제를 해결하는 것에 관심이 있습니다.\n여러 프로젝트 및 사업을 통해 데이터 수집부터 데이터 표준화, 데이터 품질관리, 데이터 분석 및 서비스까지 일련의 과정을 진행한 경험이 있으며 이를 위해 다양한 툴을 활용하여 업무를 진행하고 있습니다."
   },
   {
     "objectID": "about.html#contact",
@@ -18,28 +18,91 @@
     "href": "about.html#skills",
     "title": "portfolio",
     "section": "skills",
-    "text": "skills\n\nR\nPython\nSQL"
+    "text": "skills\n\nR | 데이터 분석\nPython | 데이터 분석, ML/DL\nSQL | 데이터 관리 및 추출\nNIFI | 데이터 수집 및 처리\nDA# | 데이터 관리\nQuarto | 데이터 활용 서비스"
   },
   {
     "objectID": "about.html#project-list",
     "href": "about.html#project-list",
     "title": "portfolio",
     "section": "Project list",
-    "text": "Project list\n\n김제 스마트팜 혁신밸리 데이터 수집 및 분석 | 2023.10 - 2024.04\n\n(주)좋은정보기술 연구개발팀\n혁신밸리 데이터 수집, 처리, 적재 프로세스 구성(NIFI)\n온실 미기후 데이터 품질관리\n작물 생육 측정 데이터 품질관리\n수집 데이터 활용 분석 서비스 제공\n대시보드 설계\n\n\n\n전라북도 공공데이터 품질관리 | 2023.09 - 2023.11\n\n(주)좋은정보기술 연구개발팀\n공공데이터 품질관리 수준평가 대응, 평가 결과 96점 달성\n업무담당자 대상 공공데이터 품질관리 교육\n24개 평가 대상 DB 품질진단 및 개선(표준, 구조, 연계, 값 진단 및 개선)\n개방데이터 품질 진단 및 개선\n\n\n\n고품질 농업 데이터 수집 및 분석 | 2023.06 - 2023.12\n\n(주)좋은정보기술 연구개발팀\n온실 미기후 데이터 품질관리\n작물 생육 측정 데이터 품질관리\n수집 데이터 활용 분석(미기후 데이터 시계열 군집분석, 결측치 처리 모델)\n\n\n\n차량 이미지 정보 인식 개발 | 2022.07\n\n쏘카 실전 데이터로 배우는 AI 엔지니어 육성 부트캠프 2기\nPython, Pytorch\n차량 이미지에서 차량 부품별 인식\n차량 사진을 찍은 각도 추출 모델 개발\n프로젝트 상세\n\n\n\n우편서비스 배달업무환경 분석| 2021.09 - 2022.02\n\n한국전자통신연구원 우정물류기술연구센터 인턴\n배달업무 평준화 및 운영 효율화 설계를 위한 배달업무환경 분석\n초과근무시간 예측을 위한 EDA 및 feature engineering\n초과근무시간 예측 모델링\n프로젝트 상세\n\n\n\n수출동향파악을 위한 수출물량 시계열 분석| 2021.09 - 2022.02\n\n한국전자통신연구원 우정물류기술연구센터 인턴\n공공데이터 API를 이용한 수출물량 자동 수집기 개발\n주식시장 데이터, 경제지수 데이터 수집\n국가별 주요 수출 품목 시계열 분석\n프로젝트 상세\n\n\n\n작업복 세탁소 수요 예측 및 입지 분석| 2021.07 - 2021.08\n\n공공빅데이터 청년 인턴십\n공장 위치정보 및 특성, 작업복 세탁량 데이터 전처리\n작업복 세탁소가 필요한 공장의 특성 도출\n공장별 작업복 세탁 수요 예측\n작업복 세탁소 최적 입지 시각화\n프로젝트 상세"
+    "text": "Project list\n\n김제 스마트팜 혁신밸리 데이터 수집 및 분석 | 2023.10 - 2024.04\n\n(주)좋은정보기술 연구개발팀 근무\n혁신밸리 데이터 수집, 처리, 적재 프로세스 구성\n온실 미기후 데이터 품질관리\n작물 생육 측정 데이터 품질관리\n수집 데이터 활용 분석 서비스 제공\n대시보드 설계\n\n\n\n전라북도 공공데이터 품질관리 | 2023.09 - 2023.11\n\n(주)좋은정보기술 연구개발팀 근무\n공공데이터 품질관리 수준평가 대응, 평가 결과 96점 달성\n업무담당자 대상 공공데이터 품질관리 교육\n24개 평가 대상 DB 품질진단 및 개선(표준, 구조, 연계, 값 진단 및 개선)\n개방데이터 품질 진단 및 개선\n\n\n\n고품질 농업 데이터 수집 및 분석 | 2023.06 - 2023.12\n\n(주)좋은정보기술 연구개발팀 근무\n온실 미기후 데이터 품질관리\n작물 생육 측정 데이터 품질관리\n수집 데이터 활용 분석(미기후 데이터 시계열 군집분석, 결측치 처리 모델)\n\n\n\n차량 이미지 정보 인식 개발 | 2022.07\n\n쏘카 실전 데이터로 배우는 AI 엔지니어 육성 부트캠프 2기\nPython, Pytorch\n차량 이미지에서 차량 부품별 인식\n차량 사진을 찍은 각도 추출 모델 개발\n프로젝트 상세\n\n\n\n우편서비스 배달업무환경 분석 | 2021.09 - 2022.02\n\n한국전자통신연구원 우정물류기술연구센터 인턴\n배달업무 평준화 및 운영 효율화 설계를 위한 배달업무환경 분석\n초과근무시간 예측을 위한 EDA 및 feature engineering\n초과근무시간 예측 모델링\n프로젝트 상세\n\n\n\n수출동향파악을 위한 수출물량 시계열 분석 | 2021.09 - 2022.02\n\n한국전자통신연구원 우정물류기술연구센터 인턴\n공공데이터 API를 이용한 수출물량 자동 수집기 개발\n주식시장 데이터, 경제지수 데이터 수집\n국가별 주요 수출 품목 시계열 분석\n프로젝트 상세\n\n\n\n작업복 세탁소 수요 예측 및 입지 분석 | 2021.07 - 2021.08\n\n공공빅데이터 청년 인턴십\n공장 위치정보 및 특성, 작업복 세탁량 데이터 전처리\n작업복 세탁소가 필요한 공장의 특성 도출\n공장별 작업복 세탁 수요 예측\n작업복 세탁소 최적 입지 시각화\n프로젝트 상세"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "김경환",
     "section": "",
-    "text": "안녕하세요. 데이터 분석과 AI를 통해 다양한 일을 하고 싶어하는 김경환입니다."
+    "text": "안녕하세요, 데이터 분석가 김경환입니다. 저는 데이터를 통해 문제를 정의하고 다양한 데이터를 활용하여 문제를 해결하는 것에 관심이 있습니다.\n여러 프로젝트 및 사업을 통해 데이터 수집부터 데이터 표준화, 데이터 품질관리, 데이터 분석 및 서비스까지 일련의 과정을 진행한 경험이 있으며 이를 위해 다양한 툴을 활용하여 업무를 진행하고 있습니다."
+  },
+  {
+    "objectID": "mytip/gittip.html",
+    "href": "mytip/gittip.html",
+    "title": "git tip!",
+    "section": "",
+    "text": "git과 github 관련된 팁 정리\n먼저 git설치 및 github계정 생성 후 git bash에 다음을 입력."
+  },
+  {
+    "objectID": "mytip/gittip.html#rstudio-버전",
+    "href": "mytip/gittip.html#rstudio-버전",
+    "title": "git tip!",
+    "section": "rstudio 버전",
+    "text": "rstudio 버전\n\nrstudio &gt; Tools &gt; Global Options &gt; Git.SVN에서 ssh키 생성\ngithub계정에 ssh키 등록"
+  },
+  {
+    "objectID": "mytip/gittip.html#터미널",
+    "href": "mytip/gittip.html#터미널",
+    "title": "git tip!",
+    "section": "터미널",
+    "text": "터미널\ncd ~\nssh-keygen\ncd ~/.ssh\ncat id_rsa.pub\n이후 나타난 문자열을 복사하여 github에 등록"
+  },
+  {
+    "objectID": "mytip/quarto.html",
+    "href": "mytip/quarto.html",
+    "title": "quarto tip!",
+    "section": "",
+    "text": "quarto를 사용하면서 알아낸 tip 정리"
+  },
+  {
+    "objectID": "mytip/quarto.html#코드-작성",
+    "href": "mytip/quarto.html#코드-작성",
+    "title": "quarto tip!",
+    "section": "코드 작성",
+    "text": "코드 작성\nqmd에서 코드블럭을 작성할 때 ```로 감싸서 작성\n```\ncode\n```\n언어를 지정하여 언어에 맞는 디자인을 적용할 수 있다. 140가지 언어를 지원.\ndefalut를 사용하면 지원하지 않는는 언어도 유사하게 처리를 해준다.\n``` r\ncode &lt;- 1\n```\n``` defalut\ncode = 1\n```\n만약 코드의 파일명 또는 프로그램명을 명시하고싶다면,\n\n\n\n\n\n\n\ninput\n``` {.r filename=\"tmp.r\"}\ncode = 1\n```\n\n\noutput\n\n\ntmp.r\n\ncode = 1"
+  },
+  {
+    "objectID": "mytip/quarto.html#callout-blocks",
+    "href": "mytip/quarto.html#callout-blocks",
+    "title": "quarto tip!",
+    "section": "Callout Blocks",
+    "text": "Callout Blocks\nCallout blocks는 글에서 강조를 하거나 보충, 주의를 표현할 수 있도록 합니다.\n\ninput\n\n:::{.callout-note}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nNote\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important."
+  },
+  {
+    "objectID": "mytip/quarto.html#단축키-표시",
+    "href": "mytip/quarto.html#단축키-표시",
+    "title": "quarto tip!",
+    "section": "단축키 표시",
+    "text": "단축키 표시\n\ninput\n\n{{&lt; kbd Shift-Ctrl-P &gt;}}\n\noutput\n\nShift-Ctrl-P"
+  },
+  {
+    "objectID": "mytip/quarto.html#publishing",
+    "href": "mytip/quarto.html#publishing",
+    "title": "quarto tip!",
+    "section": "Publishing",
+    "text": "Publishing\nquarto 문서를 만들었다면 다양한 루트로 Publishing이 가능하다.\n\ngithub pages\ngithub pages는 docs라는 디렉토리에서 렌더링 되기때문에 _quarto.yml에 다음 코드를 추가해줘야 한다.\n\n\n_quarto.yml\n\nproject:\n  type: website\n  output-dir: docs\n\n그리고 .nojekyll도 추가, window11에서 Rstudio terminal를 이용 시 copy가 실행되지 않았는데 오히려 touch는 잘 작동되었다.\n\n\n\n\n\n\n\nMac/Linux\n\n\nTerminal\n\ntouch .nojekyll\n\n\n\nWindows\n\n\nTerminal\n\ncopy NUL .nojekyll\n\n\n\n\ngithub pages에 Publishing할때 필요 없는 디렉토리는 .gitignore에 추가하는 것이 좋다. github pages에서 _site, _book등 디렉토리는 모두 docs에서 render되기 때문이다.\n\n\n.gitignore\n\n/.quarto/\n/_site/\n\n만약 이미 push했다면,\n\n\nTerminal\n\ngit rm -r _site\n\n이후 render 후 git에 push\n\n\nTerminal\n\nquarto render\ngit push"
+  },
+  {
+    "objectID": "mytip/settting.html",
+    "href": "mytip/settting.html",
+    "title": "세팅법 정리",
+    "section": "",
+    "text": "컴퓨터 초기화 후 세팅하는 법 정리(wsl, R, conda 등)\n\nR설치(jdk도 추가)\n\nc드라이브에 R폴더 생성\n설치파일 다운로드\n\n\nR\nRstudio\nRtools\njdk\n\n\nR과 Rstudio는 C:\\R에 관리자권한으로 설치(기본값으로)\njdk, Rtools는 기본 경로에 설치(기본값으로).\n자주 사용하는 필수 패키지 목록\n\n\ntidyverse\ncaret\n\n\n\nanaconda3 설치\n\nanaconda3 설치파일 다운로드 및 설치(기본값으로)\n\n\n\nVS code 설치\n\nvs code 설치링크\nms store에도 있음\npath에 추가 옵션 선택\n\n\n\nwindow11에서 wsl을 이용해 linux 설치\n\nms 공식 설명서1\nms 공식 설명서2\n\n\npowershell열고 다음을 입력하여 linux설치\n\nwsl --install\n설치 후 컴퓨터를 다시 시작\n\n사용자 이름 및 암호 설정\n\n컴퓨터를 다시 시작하면 바로 우분투 터미널 창이 열린다. 사용자 이름과 암호를 입력. 입력한 계정은 sudo 권한이 부여된다.\n\n패키지 업데이트 및 업그레이드\n\nsudo apt update && sudo apt upgrade\n\nvs code 확장팩 설치 및 연결\n\n\nremote dev 확장팩 설치\n우분투에서 code .을 입력하면 vs code로 연결됨\n윈도우 vs code에서 ctrl+shift+p를 통해서도 연결 가능\n\n\n\n우분투에서 R와 Rstudio-server 설치\n\n참고자료, 변할 수 있으니 확인 (지금은 우분투 22.04)\n\nrstudio-server download\nR 설치 간편설명\nR 설치 설명\n\n\n\nR설치\n\n# update indices\nsudo apt update -qq\n# install two helper packages we need\nsudo apt install --no-install-recommends software-properties-common dirmngr\n# add the signing key (by Michael Rutter) for these repos\n# To verify key, run gpg --show-keys /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc \n# Fingerprint: E298A3A825C0D65DFD57CBB651716619E084DAB9\nwget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc\n# add the R 4.0 repo from CRAN -- adjust 'focal' to 'groovy' or 'bionic' as needed\nsudo add-apt-repository \"deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/\"\nsudo apt install --no-install-recommends r-base\nsudo apt-get install r-base-dev\nsudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+\n$(lsb_release -cs) = jammy, 우분투22.04의 코드네임\n\nrstudio-server 설치\n\nsudo apt-get install gdebi-core\nwget https://download2.rstudio.org/server/jammy/amd64/rstudio-server-2023.03.1-446-amd64.deb\nsudo gdebi rstudio-server-2023.03.1-446-amd64.deb\n\n실행\n\nsudo rstudio-server start\n실행 후 http://{local ip주소}:8787/에 접속\n\n\n우분투에서 conda 설치\n참고자료\n\nsystem repositories 업데이트\n\nsudo apt update\n\ncurl 패키지 설치\n\nsudo apt install curl -y\n\nanaconda 설치\n\n/tmp 디렉토리로 이동\ncd /tmp\n설치파일 다운로드, 여기서 원하는 버전 선택\ncurl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh\n‘SHA-256’ 다운로드\nsha256sum anaconda.sh\n설치 프로그램 실행\nbash anaconda.sh\n\n.bashrc에 변경된 환경설정 활성화\n\nsource ~/.bashrc\n\n설치 확인\n\nconda list\n\n기타 설정\n\n\nconda 설정 보기\n\nconda config --show\n\nconda 자동 활성화 모드 on/off\n\nconda config --set auto_activate_base {True/False}\n\nconda 실행/종료\n\nconda activate\nconda deactivate\n\n\nconda에서 자주 설치하는 패키지\nconda 패키지 검색\nconda create -n 가상환경이름 python=3.7.13\nconda install pytorch torchvision torchaudio cpuonly -c pytorch\nconda install -c conda-forge pandas\nconda install -c conda-forge matplotlib\nconda install -c conda-forge scikit-learn\nconda install -c conda-forge jupyter"
   },
   {
     "objectID": "mytip.html",
     "href": "mytip.html",
     "title": "MY Tip",
     "section": "",
-    "text": "No matching items"
+    "text": "quarto tip!\n\n\n\n\n\n\n\nquarto\n\n\n\n\n\n\n\n\n\n\n\nSep 17, 2023\n\n\n김경환\n\n\n\n\n\n\n  \n\n\n\n\ngit tip!\n\n\n\n\n\n\n\ngit\n\n\n\n\n\n\n\n\n\n\n\nJul 5, 2023\n\n\n김경환\n\n\n\n\n\n\n  \n\n\n\n\n세팅법 정리\n\n\n\n\n\n\n\n\n\n\n\n\nJun 5, 2023\n\n\n김경환\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/bayesian_with_stan.html",
@@ -49,55 +112,6 @@
     "text": "bayesian 이론 정리 및 stan을 통한 분석\n\nstan 사용 환경 설정\nr에서 stan을 활용하기 위해서는 rtools 설치가 필요하다. windows 환경에서 rtools4.2부터는 별도의 환경변수 설정 없이 설치만 하면 이용이 가능하다고 했지만 stan은 다른 설정이 필요한 듯하다.\n해결방법을 찾을 때까지는 wsl ubuntu에서 stan을 사용\n\n\n단순회귀모형\ndata {\n  int N;\n  real X[N];\n  real Y[N];\n}\n\nparameters {\n  real a;\n  real b;\n  real mu;\n  real&lt;lower=0&gt; sigma;\n}\n\nmodel {\n  for (n in 1:N) {\n    Y[n] ~ normal(a + b * X[n], sigma);\n  }\n}\nlibrary(rstan)\ndata &lt;- list(N=nrow(cars), X=cars$dist, Y=cars$speed)\nfit &lt;- stan(file = \"lm.stan\", data = data, seed=1234)\n\nfit\n&gt; fit\nInference for Stan model: lm.\n4 chains, each with iter=2000; warmup=1000; thin=1; \npost-warmup draws per chain=1000, total post-warmup draws=4000.\n\n               mean      se_mean           sd          2.5%           25%           50%         75%         97.5% n_eff Rhat\na      8.290000e+00 2.000000e-02 9.300000e-01  6.490000e+00  7.650000e+00  8.280000e+00  8.9100e+00  1.008000e+01  2785 1.00\nb      1.700000e-01 0.000000e+00 2.000000e-02  1.300000e-01  1.500000e-01  1.700000e-01  1.8000e-01  2.000000e-01  2754 1.00\nmu    -1.028316e+15 4.466057e+15 8.995785e+15 -1.499126e+16 -6.540879e+15 -8.474066e+14  5.6003e+14  2.555615e+16     4 2.08\nsigma  3.240000e+00 1.000000e-02 3.400000e-01  2.650000e+00  3.000000e+00  3.210000e+00  3.4500e+00  4.000000e+00  3346 1.00\nlp__  -8.189000e+01 3.000000e-02 1.250000e+00 -8.511000e+01 -8.250000e+01 -8.157000e+01 -8.0950e+01 -8.043000e+01  1616 1.00\n\nSamples were drawn using NUTS(diag_e) at Wed Jun 14 23:46:43 2023.\nFor each parameter, n_eff is a crude measure of effective sample size,\nand Rhat is the potential scale reduction factor on split chains (at \nconvergence, Rhat=1)."
   },
   {
-    "objectID": "posts/data_standard.html",
-    "href": "posts/data_standard.html",
-    "title": "공공데이터 표준화 지침 정리",
-    "section": "",
-    "text": "「공공데이터법」 제2조에 따라 공공기관이 법령 등에서 정하는 목적을 위하여 생성 또는 취득하여 관리하고 있는 모든 DB가 표준화 대상으로, 공공기관에서 구축한 신규 및 고도화 시스템의 DB가 공공데이터 표준화 대상이 된다."
-  },
-  {
-    "objectID": "posts/data_standard.html#표준화-대상",
-    "href": "posts/data_standard.html#표준화-대상",
-    "title": "공공데이터 표준화 지침 정리",
-    "section": "",
-    "text": "「공공데이터법」 제2조에 따라 공공기관이 법령 등에서 정하는 목적을 위하여 생성 또는 취득하여 관리하고 있는 모든 DB가 표준화 대상으로, 공공기관에서 구축한 신규 및 고도화 시스템의 DB가 공공데이터 표준화 대상이 된다."
-  },
-  {
-    "objectID": "posts/data_standard.html#표준-구성요소",
-    "href": "posts/data_standard.html#표준-구성요소",
-    "title": "공공데이터 표준화 지침 정리",
-    "section": "표준 구성요소",
-    "text": "표준 구성요소"
-  },
-  {
-    "objectID": "posts/gittip.html",
-    "href": "posts/gittip.html",
-    "title": "git tip!",
-    "section": "",
-    "text": "git과 github 관련된 팁 정리\n먼저 git설치 및 github계정 생성 후 git bash에 다음을 입력."
-  },
-  {
-    "objectID": "posts/gittip.html#rstudio-버전",
-    "href": "posts/gittip.html#rstudio-버전",
-    "title": "git tip!",
-    "section": "rstudio 버전",
-    "text": "rstudio 버전\n\nrstudio &gt; Tools &gt; Global Options &gt; Git.SVN에서 ssh키 생성\ngithub계정에 ssh키 등록"
-  },
-  {
-    "objectID": "posts/gittip.html#터미널",
-    "href": "posts/gittip.html#터미널",
-    "title": "git tip!",
-    "section": "터미널",
-    "text": "터미널\ncd ~\nssh-keygen\ncd ~/.ssh\ncat id_rsa.pub\n이후 나타난 문자열을 복사하여 github에 등록"
-  },
-  {
-    "objectID": "posts/preprocess.html",
-    "href": "posts/preprocess.html",
-    "title": "preprocessing tip!",
-    "section": "",
-    "text": "꿀팁이지만 자주 사용하지 않아서 까먹는 전처리 스킬 정리\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.2     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.1     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\ntest data set 생성\n\ndf &lt;- tibble(a = 1:10, b = 11:20, c = letters[1:10], d = LETTERS[1:10])\ndf\n\n# A tibble: 10 × 4\n       a     b c     d    \n   &lt;int&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;\n 1     1    11 a     A    \n 2     2    12 b     B    \n 3     3    13 c     C    \n 4     4    14 d     D    \n 5     5    15 e     E    \n 6     6    16 f     F    \n 7     7    17 g     G    \n 8     8    18 h     H    \n 9     9    19 i     I    \n10    10    20 j     J    \n\n\n\n\n문자열 관련 전처리\n\ndf %&gt;% mutate(cd = str_c(a,b,c,d))\n\n# A tibble: 10 × 5\n       a     b c     d     cd    \n   &lt;int&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; \n 1     1    11 a     A     111aA \n 2     2    12 b     B     212bB \n 3     3    13 c     C     313cC \n 4     4    14 d     D     414dD \n 5     5    15 e     E     515eE \n 6     6    16 f     F     616fF \n 7     7    17 g     G     717gG \n 8     8    18 h     H     818hH \n 9     9    19 i     I     919iI \n10    10    20 j     J     1020jJ"
-  },
-  {
     "objectID": "posts/pypots_tutorial.html",
     "href": "posts/pypots_tutorial.html",
     "title": "pypots tutorial",
@@ -105,73 +119,45 @@
     "text": "pypots은 시계열 처리(결측, 예측, 분류, 군집)을 쉽게 처리할 수 있도록 만든 패키지\n\npypots 설치\n# by pip\npip install pypots            # the first time installation\npip install pypots --upgrade  # update pypots to the latest version\n\n# by conda\nconda install -c conda-forge pypots  # the first time installation\nconda update  -c conda-forge pypots  # update pypots to the latest version\n\n\npreparing data\nfrom pypots.data.generating import gene_physionet2012\nphysionet2012_dataset = gene_physionet2012(artificially_missing_rate=0.1)\ndataset_for_training = {\n    \"X\": physionet2012_dataset['train_X'],\n}\n\ndataset_for_validating = {\n    \"X\": physionet2012_dataset['val_X'],\n    \"X_intact\": physionet2012_dataset['val_X_intact'],\n    \"indicating_mask\": physionet2012_dataset['val_X_indicating_mask'],\n}\n\ndataset_for_testing = {\n    \"X\": physionet2012_dataset['test_X'],\n}\n\n\n결측치 처리(impute)\nfrom pypots.optim import Adam\nfrom pypots.imputation import SAITS\n\n# initialize the model\nsaits = SAITS(\n    n_steps=physionet2012_dataset['n_steps'],\n    n_features=physionet2012_dataset['n_features'],\n    n_layers=2,\n    d_model=256,\n    d_inner=128,\n    n_heads=4,\n    d_k=64,\n    d_v=64,\n    dropout=0.1,\n    attn_dropout=0.1,\n    diagonal_attention_mask=True,  # otherwise the original self-attention mechanism will be applied\n    ORT_weight=1,  # you can adjust the weight values of arguments ORT_weight\n    # and MIT_weight to make the SAITS model focus more on one task. Usually you can just leave them to the default values, i.e. 1.\n    MIT_weight=1,\n    batch_size=32,\n    # here we set epochs=10 for a quick demo, you can set it to 100 or more for better performance\n    epochs=10,\n    # here we set patience=3 to early stop the training if the evaluting loss doesn't decrease for 3 epoches.\n    # You can leave it to defualt as None to disable early stopping.\n    patience=3,\n    # give the optimizer. Different from torch.optim.Optimizer, you don't have to specify model's parameters when\n    # initializing pypots.optim.Optimizer. You can also leave it to default. It will initilize an Adam optimizer with lr=0.001.\n    optimizer=Adam(lr=1e-3),\n    # this num_workers argument is for torch.utils.data.Dataloader. It's the number of subprocesses to use for data loading.\n    # Leaving it to default as 0 means data loading will be in the main process, i.e. there won't be subprocesses.\n    # You can increase it to &gt;1 if you think your dataloading is a bottleneck to your model training speed\n    num_workers=0,\n    # just leave it to default, PyPOTS will automatically assign the best device for you.\n    # Set it to 'cpu' if you don't have CUDA devices. You can also set it to 'cuda:0' or 'cuda:1' if you have multiple CUDA devices.\n    device='cpu',  \n    # set the path for saving tensorboard and trained model files \n    saving_path=\"tutorial_results/imputation/saits\",\n    # only save the best model after training finished.\n    # You can also set it as \"better\" to save models performing better ever during training.\n    model_saving_strategy=\"best\",\n)\n# train the model on the training set, and validate it on the validating set to select the best model for testing in the next step\nsaits.fit(train_set=dataset_for_training, val_set=dataset_for_validating)\n# the testing stage, impute the originally-missing values and artificially-missing values in the test set\nsaits_imputation = saits.impute(dataset_for_testing)\nfrom pypots.utils.metrics import cal_mae\n\n# calculate mean absolute error on the ground truth (artificially-missing values)\ntesting_mae = cal_mae(\n    saits_imputation, physionet2012_dataset['test_X_intact'], physionet2012_dataset['test_X_indicating_mask'])\nprint(\"Testing mean absolute error: %.4f\" % testing_mae)"
   },
   {
-    "objectID": "posts/quarto.html",
-    "href": "posts/quarto.html",
-    "title": "quarto tip!",
-    "section": "",
-    "text": "quarto를 사용하면서 알아낸 tip 정리\nquarto 공식문서"
-  },
-  {
-    "objectID": "posts/quarto.html#코드-작성",
-    "href": "posts/quarto.html#코드-작성",
-    "title": "quarto tip!",
-    "section": "코드 작성",
-    "text": "코드 작성\nqmd에서 코드블럭을을 작성할 때 ```로 감싸서 작성\n```\ncode\n```\n언어를 지정하여 언어에 맞는 디자인을 적용할 수 있다. 140가지 언어를 지원.\ndefalut를 사용하면 지원하지 않는는 언어도 유사하게 처리를 해준다.\n``` r\ncode &lt;- 1\n```\n``` defalut\ncode = 1\n```\n만약 코드의 파일명 또는 프로그램명을 명시하고싶다면,\n\n\n\n\n\n\n\ninput\n``` {.r filename=\"tmp.r\"}\ncode = 1\n```\n\n\noutput\n\n\ntmp.r\n\ncode = 1"
-  },
-  {
-    "objectID": "posts/quarto.html#callout-blocks",
-    "href": "posts/quarto.html#callout-blocks",
-    "title": "quarto tip!",
-    "section": "Callout Blocks",
-    "text": "Callout Blocks\nCallout blocks는 글에서 강조를 하거나 보충, 주의를 표현할 수 있도록 합니다.\n\ninput\n\n:::{.callout-note}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nNote\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important."
-  },
-  {
-    "objectID": "posts/quarto.html#단축키-표시",
-    "href": "posts/quarto.html#단축키-표시",
-    "title": "quarto tip!",
-    "section": "단축키 표시",
-    "text": "단축키 표시\n\ninput\n\n{{&lt; kbd Shift-Ctrl-P &gt;}}\n\noutput\n\nShift-Ctrl-P"
-  },
-  {
-    "objectID": "posts/quarto.html#github-pages",
-    "href": "posts/quarto.html#github-pages",
-    "title": "quarto tip!",
-    "section": "github pages",
-    "text": "github pages\ngithub pages는 docs라는 디렉토리에서 렌더링 되기때문에 _quarto.yml에 다음 코드를 추가해줘야 한다.\n\n\n_quarto.yml\n\nproject:\n  type: website\n  output-dir: docs\n\n그리고 .nojekyll도 추가, window11에서 Rstudio terminal를 이용 시 copy가 실행되지 않았는데 오히려 touch는 잘 작동되었다.\n\n\n\n\n\n\n\nMac/Linux\n\n\nTerminal\n\ntouch .nojekyll\n\n\n\nWindows\n\n\nTerminal\n\ncopy NUL .nojekyll\n\n\n\n\ngithub pages에 Publishing할때 필요 없는 디렉토리는 .gitignore에 추가하는 것이 좋다. github pages에서 _site, _book등 디렉토리는 모두 docs에서 render되기 때문이다.\n\n\n.gitignore\n\n/.quarto/\n/_site/\n\n만약 이미 push했다면,\n\n\nTerminal\n\ngit rm -r _site\n\n이후 render 후 git에 push\n\n\nTerminal\n\nquarto render\ngit push\n\n컴퓨터와 github를 연동하는 방법은 따로 포스팅"
-  },
-  {
-    "objectID": "posts/settting.html",
-    "href": "posts/settting.html",
-    "title": "세팅법 정리",
-    "section": "",
-    "text": "컴퓨터 초기화 후 세팅하는 법 찾기 귀찮아서 미리미리 모아둠\n\nR설치(jdk도 추가)\n\nc드라이브에 R폴더 생성\n설치파일 다운로드\n\n\nR\nRstudio\nRtools\njdk\n\n\nR과 Rstudio는 C:\\R에 관리자권한으로 설치(기본값으로)\njdk, Rtools는 기본 경로에 설치(기본값으로).\n자주 사용하는 필수 패키지 목록\n\n\ntidyverse\ncaret\n\n\n\nanaconda3 설치\n\nanaconda3 설치파일 다운로드 및 설치(기본값으로)\n\n\n\n\nVS code 설치\n\nvs code 설치링크\nms store에도 있음\npath에 추가 옵션 선택\n\n\n\nwindow11에서 wsl을 이용해 linux 설치\n\nms 공식 설명서1\nms 공식 설명서2\n\n\npowershell열고 다음을 입력하여 linux설치\n\nwsl --install\n설치 후 컴퓨터를 다시 시작\n\n사용자 이름 및 암호 설정\n\n컴퓨터를 다시 시작하면 바로 우분투 터미널 창이 열린다. 사용자 이름과 암호를 입력. 입력한 계정은 sudo 권한이 부여된다.\n\n패키지 업데이트 및 업그레이드\n\nsudo apt update && sudo apt upgrade\n\nvs code 확장팩 설치 및 연결\n\n\nremote dev 확장팩 설치\n우분투에서 code .을 입력하면 vs code로 연결됨\n윈도우 vs code에서 ctrl+shift+p를 통해서도 연결 가능\n\n\n\n우분투에서 R와 Rstudio-server 설치\n\n참고자료, 변할 수 있으니 확인 (지금은 우분투 22.04)\n\nrstudio-server download\nR 설치 간편설명\nR 설치 설명\n\n\n\nR설치\n\n# update indices\nsudo apt update -qq\n# install two helper packages we need\nsudo apt install --no-install-recommends software-properties-common dirmngr\n# add the signing key (by Michael Rutter) for these repos\n# To verify key, run gpg --show-keys /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc \n# Fingerprint: E298A3A825C0D65DFD57CBB651716619E084DAB9\nwget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc\n# add the R 4.0 repo from CRAN -- adjust 'focal' to 'groovy' or 'bionic' as needed\nsudo add-apt-repository \"deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/\"\nsudo apt install --no-install-recommends r-base\nsudo apt-get install r-base-dev\nsudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+\n$(lsb_release -cs) = jammy, 우분투22.04의 코드네임\n\nrstudio-server 설치\n\nsudo apt-get install gdebi-core\nwget https://download2.rstudio.org/server/jammy/amd64/rstudio-server-2023.03.1-446-amd64.deb\nsudo gdebi rstudio-server-2023.03.1-446-amd64.deb\n\n실행\n\nsudo rstudio-server start\n실행 후 http://{local ip주소}:8787/에 접속\n\n\n우분투에서 conda 설치\n참고자료\n\nsystem repositories 업데이트\n\nsudo apt update\n\ncurl 패키지 설치\n\nsudo apt install curl -y\n\nanaconda 설치\n\n/tmp 디렉토리로 이동\ncd /tmp\n설치파일 다운로드, 여기서 원하는 버전 선택\ncurl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh\n‘SHA-256’ 다운로드\nsha256sum anaconda.sh\n설치 프로그램 실행\nbash anaconda.sh\n\n.bashrc에 변경된 환경설정 활성화\n\nsource ~/.bashrc\n\n설치 확인\n\nconda list\n\n기타 설정\n\n\nconda 설정 보기\n\nconda config --show\n\nconda 자동 활성화 모드 on/off\n\nconda config --set auto_activate_base {True/False}\n\nconda 실행/종료\n\nconda activate\nconda deactivate\n\n\nconda에서 자주 설치하는 패키지\nconda 패키지 검색\nconda create -n 가상환경이름 python=3.7.13\nconda install pytorch torchvision torchaudio cpuonly -c pytorch\nconda install -c conda-forge pandas\nconda install -c conda-forge matplotlib\nconda install -c conda-forge scikit-learn\nconda install -c conda-forge jupyter\n\n\nwindow에서 git 설치 및 연동\n먼저 git\ngit config --global user.email \"example@email.com\"\ngit config --global user.name \"username\""
-  },
-  {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "bayesian with stan\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\n공공데이터 표준화 지침 정리\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\ngit tip!\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\npreprocessing tip!\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\npypots tutorial\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\nquarto tip!\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\n  \n\n\n\n\n세팅법 정리\n\n\n\n\n\n\n\n\n\n\n\n\nkyeonghwany\n\n\n\n\n\n\nNo matching items"
+    "text": "bayesian with stan\n\n\n\n\n\n\n\nR\n\n\nstan\n\n\nbayesian\n\n\n\n\n\n\n\n\n\n\n\nSep 6, 2023\n\n\n김경환\n\n\n\n\n\n\n  \n\n\n\n\npypots tutorial\n\n\n\n\n\n\n\npython\n\n\npypots\n\n\ntime series\n\n\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\n김경환\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "project/project_data_QC.html",
-    "href": "project/project_data_QC.html",
-    "title": "공공데이터 품질관리 프로젝트",
+    "objectID": "project/2024-04-16-opendata-qc.html",
+    "href": "project/2024-04-16-opendata-qc.html",
+    "title": "공공데이터 품질관리 수준평가를 마치고",
     "section": "",
-    "text": "전라북도에서"
+    "text": "2023년 7월, 전라북도 공공데이터 품질관리 용역를 수행했습니다. 결론적으로 중요 지표였던 품질관리 수준평가 96점을 달성하여 전라북도청 평가점수 최고점을 갱신했습니다. 처음 보는 데이터 표준화와 데이터 품질관리에 대한 개념을 접할 수 있어서 저에게도 유익한 사업이었습니다."
   },
   {
-    "objectID": "project/project_data_QC.html#개요",
-    "href": "project/project_data_QC.html#개요",
-    "title": "공공데이터 품질관리 프로젝트",
-    "section": "",
-    "text": "전라북도에서"
+    "objectID": "project/2024-04-16-opendata-qc.html#품질관리-수준평가란",
+    "href": "project/2024-04-16-opendata-qc.html#품질관리-수준평가란",
+    "title": "공공데이터 품질관리 수준평가를 마치고",
+    "section": "품질관리 수준평가란?",
+    "text": "품질관리 수준평가란?\n정부에서는 매년 공공데이터법 제9조에 근거하여 공공데이터 개방, 활용, 품질 및 관리체계 등 공공데이터 제공 및 운영에 관한 실태를 파악하고 개선하기 위해 “공공데이터 제공 운영실태 평가”를 실시하고 있습니다.\n공공데이터 품질관리 수준평가는 공공데이터 제공 운영실태 평가 중 35점을 반영합니다.\n\n\n\n평가영역\n배점(광역 기관 기준)\n\n\n\n\n관리체계\n7\n\n\n개방\n35\n\n\n활용\n23\n\n\n공공데이터 품질관리 수준\n35\n\n\n기타\n-1/건당\n\n\n\n품질관리 수준평가는 공공기관이 관리하는 데이터에 대한 일정 수준의 품질을 확보하기 위한 데이터 관리체계를 잘 갖추고 데이터 품질수준을 파악하기 위해 실시하고 있습니다.\n\n\n\n번호\n지표\n배점\n\n\n\n\n1\n품질진단 절차 별 일정 준수\n2\n\n\n2\n품질관리 계획수립\n2\n\n\n3\n예방적 품질관리 진단\n12\n\n\n4\n데이터 표준 확산\n10\n\n\n5\n데이터 구조 안정화\n6\n\n\n6\n데이터 연계관리\n8\n\n\n7\n데이터 품질진단\n20\n\n\n8\n품질진단 결과조치\n20\n\n\n9\n데이터 오류율\n14\n\n\n10\n오류신고 요구사항 분석 및 개선\n4\n\n\n11\n개방 데이터 품질수준\n2\n\n\n가점 지표 1\n예방적품질관리 진단 및 주요DB 품질진단 컨설팅\n2\n\n\n가점 지표 2\n대상 DB 35개 초과 선정 및 진단\n3\n\n\n\n위 지표 중 4~9번 지표는 기관에서 관리하는 정보시스템에 대한 DB의 품질을 평가하는데 목적이 있으며 데이터 표준화와 데이터 품질관리에 대한 이해가 필요합니다."
+  },
+  {
+    "objectID": "project/2024-04-16-opendata-qc.html#데이터-표준화",
+    "href": "project/2024-04-16-opendata-qc.html#데이터-표준화",
+    "title": "공공데이터 품질관리 수준평가를 마치고",
+    "section": "데이터 표준화",
+    "text": "데이터 표준화"
+  },
+  {
+    "objectID": "project/2024-04-16-opendata-qc.html#데이터-품질관리",
+    "href": "project/2024-04-16-opendata-qc.html#데이터-품질관리",
+    "title": "공공데이터 품질관리 수준평가를 마치고",
+    "section": "데이터 품질관리",
+    "text": "데이터 품질관리"
   },
   {
     "objectID": "project.html",
     "href": "project.html",
     "title": "Project",
     "section": "",
-    "text": "공공데이터 품질관리 프로젝트\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "공공데이터 품질관리 수준평가를 마치고\n\n\n\n\n\n\n\n공공데이터\n\n\n데이터 표준화\n\n\n데이터 품질관리\n\n\n\n\n공공데이터 품질관리 수준평가의 주요 지표에 대한 개념을 정리해봤습니다.\n\n\n\n\n\n\nApr 16, 2024\n\n\n김경환\n\n\n\n\n\n\nNo matching items"
   }
 ]

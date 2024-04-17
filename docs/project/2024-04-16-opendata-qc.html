@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="kyeonghwany">
+<meta name="author" content="김경환">
+<meta name="dcterms.date" content="2024-04-16">
+<meta name="description" content="공공데이터 품질관리 수준평가의 주요 지표에 대한 개념을 정리해봤습니다.">
 
-<title>Kyeonghwany Blog - 공공데이터 표준화 지침 정리</title>
+<title>Kyeonghwany Blog - 공공데이터 품질관리 수준평가를 마치고</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -133,16 +135,16 @@ gtag('config', 'G-NDDS4J9T4S', { 'anonymize_ip': true});
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../project.html" rel="" target="">
- <span class="menu-text">Project</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../mytip.html" rel="" target="">
  <span class="menu-text">Mytip</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">Portfolio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../project.html" rel="" target="">
+ <span class="menu-text">Project</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -160,8 +162,9 @@ gtag('config', 'G-NDDS4J9T4S', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#표준화-대상" id="toc-표준화-대상" class="nav-link active" data-scroll-target="#표준화-대상">표준화 대상</a></li>
-  <li><a href="#표준-구성요소" id="toc-표준-구성요소" class="nav-link" data-scroll-target="#표준-구성요소">표준 구성요소</a></li>
+  <li><a href="#품질관리-수준평가란" id="toc-품질관리-수준평가란" class="nav-link active" data-scroll-target="#품질관리-수준평가란">품질관리 수준평가란?</a></li>
+  <li><a href="#데이터-표준화" id="toc-데이터-표준화" class="nav-link" data-scroll-target="#데이터-표준화">데이터 표준화</a></li>
+  <li><a href="#데이터-품질관리" id="toc-데이터-품질관리" class="nav-link" data-scroll-target="#데이터-품질관리">데이터 품질관리</a></li>
   </ul>
 </nav>
     </div>
@@ -170,9 +173,19 @@ gtag('config', 'G-NDDS4J9T4S', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">공공데이터 표준화 지침 정리</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
-</div>
+<div class="quarto-title-block"><div><h1 class="title">공공데이터 품질관리 수준평가를 마치고</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+  <div class="quarto-categories">
+    <div class="quarto-category">공공데이터</div>
+    <div class="quarto-category">데이터 표준화</div>
+    <div class="quarto-category">데이터 품질관리</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    공공데이터 품질관리 수준평가의 주요 지표에 대한 개념을 정리해봤습니다.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -180,23 +193,148 @@ gtag('config', 'G-NDDS4J9T4S', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>kyeonghwany </p>
+             <p>김경환 </p>
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 16, 2024</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">April 17, 2024</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<section id="표준화-대상" class="level2">
-<h2 class="anchored" data-anchor-id="표준화-대상">표준화 대상</h2>
-<p>「공공데이터법」 제2조에 따라 공공기관이 법령 등에서 정하는 목적을 위하여 생성 또는 취득하여 관리하고 있는 모든 DB가 표준화 대상으로, 공공기관에서 구축한 신규 및 고도화 시스템의 DB가 공공데이터 표준화 대상이 된다.</p>
+<p>2023년 7월, 전라북도 공공데이터 품질관리 용역를 수행했습니다. 결론적으로 중요 지표였던 품질관리 수준평가 96점을 달성하여 전라북도청 평가점수 최고점을 갱신했습니다. 처음 보는 데이터 표준화와 데이터 품질관리에 대한 개념을 접할 수 있어서 저에게도 유익한 사업이었습니다.</p>
+<section id="품질관리-수준평가란" class="level2">
+<h2 class="anchored" data-anchor-id="품질관리-수준평가란">품질관리 수준평가란?</h2>
+<p>정부에서는 매년 공공데이터법 제9조에 근거하여 공공데이터 개방, 활용, 품질 및 관리체계 등 공공데이터 제공 및 운영에 관한 실태를 파악하고 개선하기 위해 “공공데이터 제공 운영실태 평가”를 실시하고 있습니다.</p>
+<p>공공데이터 품질관리 수준평가는 공공데이터 제공 운영실태 평가 중 35점을 반영합니다.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>평가영역</th>
+<th>배점(광역 기관 기준)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>관리체계</td>
+<td>7</td>
+</tr>
+<tr class="even">
+<td>개방</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>활용</td>
+<td>23</td>
+</tr>
+<tr class="even">
+<td><strong>공공데이터 품질관리 수준</strong></td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td>기타</td>
+<td>-1/건당</td>
+</tr>
+</tbody>
+</table>
+<p>품질관리 수준평가는 공공기관이 관리하는 데이터에 대한 일정 수준의 품질을 확보하기 위한 데이터 관리체계를 잘 갖추고 데이터 품질수준을 파악하기 위해 실시하고 있습니다.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>번호</th>
+<th>지표</th>
+<th>배점</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>품질진단 절차 별 일정 준수</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>품질관리 계획수립</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>예방적 품질관리 진단</td>
+<td>12</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><strong>데이터 표준 확산</strong></td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><strong>데이터 구조 안정화</strong></td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><strong>데이터 연계관리</strong></td>
+<td>8</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td><strong>데이터 품질진단</strong></td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td><strong>품질진단 결과조치</strong></td>
+<td>20</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td><strong>데이터 오류율</strong></td>
+<td>14</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>오류신고 요구사항 분석 및 개선</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>개방 데이터 품질수준</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>가점 지표 1</td>
+<td>예방적품질관리 진단 및 주요DB 품질진단 컨설팅</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>가점 지표 2</td>
+<td>대상 DB 35개 초과 선정 및 진단</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p>위 지표 중 4~9번 지표는 기관에서 관리하는 정보시스템에 대한 <strong>DB의 품질을 평가</strong>하는데 목적이 있으며 <strong>데이터 표준화와 데이터 품질관리</strong>에 대한 이해가 필요합니다.</p>
 </section>
-<section id="표준-구성요소" class="level2">
-<h2 class="anchored" data-anchor-id="표준-구성요소">표준 구성요소</h2>
+<section id="데이터-표준화" class="level2">
+<h2 class="anchored" data-anchor-id="데이터-표준화">데이터 표준화</h2>
+</section>
+<section id="데이터-품질관리" class="level2">
+<h2 class="anchored" data-anchor-id="데이터-품질관리">데이터 품질관리</h2>
 
 
 <!-- -->
@@ -491,25 +629,56 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <script src="https://giscus.app/client.js" data-repo="kyeonghwany/kyeonghwany.github.io" data-repo-id="R_kgDOJsBF3Q" data-category="General" data-category-id="DIC_kwDOJsBF3c4CcolB" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="ko" crossorigin="anonymous" async="">
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "공공데이터 표준화 지침 정리"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "kyeonghwany"</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">    code-copy: true</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">    code-line-numbers: false</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">    code-block-background: true</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">## 표준화 대상</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>「공공데이터법」 제2조에 따라 공공기관이 법령 등에서 정하는 목적을 위하여 생성 또는 취득하여 관리하고 있는 모든 DB가 표준화 대상으로, 공공기관에서 구축한 신규 및 고도화 시스템의 DB가 공공데이터 표준화</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>대상이 된다. </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "공공데이터 품질관리 수준평가를 마치고"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> 공공데이터 품질관리 수준평가의 주요 지표에 대한 개념을 정리해봤습니다.</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "김경환"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2024-04-16</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="an">date-modified:</span><span class="co"> last-modified</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">  - 공공데이터</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">  - 데이터 표준화</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">  - 데이터 품질관리</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>2023년 7월, 전라북도 공공데이터 품질관리 용역를 수행했습니다. 결론적으로 중요 지표였던 품질관리 수준평가 96점을 달성하여 전라북도청 평가점수 최고점을 갱신했습니다. 처음 보는 데이터 표준화와 데이터 품질관리에 대한 개념을 접할 수 있어서 저에게도 유익한 사업이었습니다.</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">## 품질관리 수준평가란?</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>정부에서는 매년 공공데이터법 제9조에 근거하여 공공데이터 개방, 활용, 품질 및 관리체계 등 공공데이터 제공 및 운영에 관한 실태를 파악하고 개선하기 위해 "공공데이터 제공 운영실태 평가"를 실시하고 있습니다.</span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">## 표준 구성요소</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>공공데이터 품질관리 수준평가는 공공데이터 제공 운영실태 평가 중 35점을 반영합니다.</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>| 평가영역                     | 배점(광역 기관 기준) |</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>|------------------------------|----------------------|</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>| 관리체계                     | 7                    |</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>| 개방                         | 35                   |</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>| 활용                         | 23                   |</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>| **공공데이터 품질관리 수준** | 35                   |</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>| 기타                         | -1/건당              |</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>품질관리 수준평가는 공공기관이 관리하는 데이터에 대한 일정 수준의 품질을 확보하기 위한 데이터 관리체계를 잘 갖추고 데이터 품질수준을 파악하기 위해 실시하고 있습니다.</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>| 번호        | 지표                                          | 배점 |</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>|-------------|-----------------------------------------------|------|</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>| 1           | 품질진단 절차 별 일정 준수                    | 2    |</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>| 2           | 품질관리 계획수립                             | 2    |</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>| 3           | 예방적 품질관리 진단                          | 12   |</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>| 4           | **데이터 표준 확산**                          | 10   |</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>| 5           | **데이터 구조 안정화**                        | 6    |</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>| 6           | **데이터 연계관리**                           | 8    |</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>| 7           | **데이터 품질진단**                           | 20   |</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>| 8           | **품질진단 결과조치**                         | 20   |</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>| 9           | **데이터 오류율**                             | 14   |</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>| 10          | 오류신고 요구사항 분석 및 개선                | 4    |</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>| 11          | 개방 데이터 품질수준                          | 2    |</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>| 가점 지표 1 | 예방적품질관리 진단 및 주요DB 품질진단 컨설팅 | 2    |</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>| 가점 지표 2 | 대상 DB 35개 초과 선정 및 진단                | 3    |</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>위 지표 중 4~9번 지표는 기관에서 관리하는 정보시스템에 대한 **DB의 품질을 평가**하는데 목적이 있으며 **데이터 표준화와 데이터 품질관리**에 대한 이해가 필요합니다.</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="fu">## 데이터 표준화</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="fu">## 데이터 품질관리</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

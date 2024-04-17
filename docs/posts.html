@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,9 +104,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -131,16 +165,16 @@ gtag('config', 'G-NDDS4J9T4S', { 'anonymize_ip': true});
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./project.html" rel="" target="">
- <span class="menu-text">Project</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./mytip.html" rel="" target="">
  <span class="menu-text">Mytip</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">Portfolio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./project.html" rel="" target="">
+ <span class="menu-text">Project</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -155,13 +189,13 @@ gtag('config', 'G-NDDS4J9T4S', { 'anonymize_ip': true});
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bayesian">bayesian <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pypots">pypots <span class="quarto-category-count">(1)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="stan">stan <span class="quarto-category-count">(1)</span></div><div class="category" data-category="time series">time series <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Posts</h1>
+<div class="quarto-title-block"><div><h1 class="title">Posts</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -179,10 +213,12 @@ gtag('config', 'G-NDDS4J9T4S', { 'anonymize_ip': true});
 
 
 
+<!-- -->
+
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1686754918973" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="0" data-categories="R,stan,bayesian" data-listing-date-sort="1693926000000" data-listing-file-modified-sort="1713251781048" data-listing-date-modified-sort="1693926000000" data-listing-reading-time-sort="2">
 <div class="thumbnail">
 <p><a href="./posts/bayesian_with_stan.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
@@ -194,6 +230,19 @@ bayesian with stan
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('stan'); return false;">
+stan
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('bayesian'); return false;">
+bayesian
+</div>
+</div>
+<a href="./posts/bayesian_with_stan.html">
 <div class="listing-description">
 bayesian 이론 정리 및 stan을 통한 분석
 </div>
@@ -201,88 +250,16 @@ bayesian 이론 정리 및 stan을 통한 분석
 </div>
 <div class="metadata">
 <a href="./posts/bayesian_with_stan.html">
+<div class="listing-date">
+Sep 6, 2023
+</div>
 <div class="listing-author">
-kyeonghwany
+김경환
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1693150375916" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/data_standard.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/data_standard.html">
-<h3 class="no-anchor listing-title">
-공공데이터 표준화 지침 정리
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-「공공데이터법」 제2조에 따라 공공기관이 법령 등에서 정하는 목적을 위하여 생성 또는 취득하여 관리하고 있는 모든 DB가 표준화 대상으로, 공공기관에서 구축한 신규 및 고도화 시스템의 DB가 공공데이터 표준화 대상이 된다.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/data_standard.html">
-<div class="listing-author">
-kyeonghwany
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1689086263042" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/gittip.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/gittip.html">
-<h3 class="no-anchor listing-title">
-git tip!
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-git과 github 관련된 팁 정리
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/gittip.html">
-<div class="listing-author">
-kyeonghwany
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1686583016994" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/preprocess.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/preprocess.html">
-<h3 class="no-anchor listing-title">
-preprocessing tip!
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-꿀팁이지만 자주 사용하지 않아서 까먹는 전처리 스킬 정리
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/preprocess.html">
-<div class="listing-author">
-kyeonghwany
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1689087188151" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="1" data-categories="python,pypots,time series" data-listing-date-sort="1691334000000" data-listing-file-modified-sort="1713248757993" data-listing-date-modified-sort="1691334000000" data-listing-reading-time-sort="3">
 <div class="thumbnail">
 <p><a href="./posts/pypots_tutorial.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
@@ -294,6 +271,19 @@ pypots tutorial
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
+python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('pypots'); return false;">
+pypots
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('time series'); return false;">
+time series
+</div>
+</div>
+<a href="./posts/pypots_tutorial.html">
 <div class="listing-description">
 pypots은 시계열 처리(결측, 예측, 분류, 군집)을 쉽게 처리할 수 있도록 만든 패키지
 </div>
@@ -301,58 +291,11 @@ pypots은 시계열 처리(결측, 예측, 분류, 군집)을 쉽게 처리할 �
 </div>
 <div class="metadata">
 <a href="./posts/pypots_tutorial.html">
+<div class="listing-date">
+Aug 7, 2023
+</div>
 <div class="listing-author">
-kyeonghwany
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-file-modified-sort="1686326487202" data-listing-reading-time-sort="5">
-<div class="thumbnail">
-<p><a href="./posts/quarto.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/quarto.html">
-<h3 class="no-anchor listing-title">
-quarto tip!
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-quarto를 사용하면서 알아낸 tip 정리
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/quarto.html">
-<div class="listing-author">
-kyeonghwany
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-listing-file-modified-sort="1686054982730" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/settting.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/settting.html">
-<h3 class="no-anchor listing-title">
-세팅법 정리
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-컴퓨터 초기화 후 세팅하는 법 찾기 귀찮아서 미리미리 모아둠
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/settting.html">
-<div class="listing-author">
-kyeonghwany
+김경환
 </div>
 </a>
 </div>
@@ -441,6 +384,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -594,7 +588,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Posts"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">listing:</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">  contents: posts</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">  sort: "date desc"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  type: default</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">  categories: true</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="an">comments:</span><span class="co"> false</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 
 

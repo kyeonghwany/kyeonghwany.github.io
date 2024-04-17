@@ -2,54 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kyeonghwany.github.io/about.html</loc>
-    <lastmod>2024-04-15T09:21:42.832Z</lastmod>
+    <lastmod>2024-04-17T02:57:05.560Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/index.html</loc>
-    <lastmod>2024-04-15T09:21:17.670Z</lastmod>
+    <lastmod>2024-04-17T02:57:06.034Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeonghwany.github.io/mytip/gittip.html</loc>
+    <lastmod>2024-04-17T02:57:07.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeonghwany.github.io/mytip/quarto.html</loc>
+    <lastmod>2024-04-17T02:57:08.641Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeonghwany.github.io/mytip/settting.html</loc>
+    <lastmod>2024-04-17T02:57:09.955Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/mytip.html</loc>
-    <lastmod>2024-04-15T09:21:40.402Z</lastmod>
+    <lastmod>2024-04-17T02:57:10.605Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/posts/bayesian_with_stan.html</loc>
-    <lastmod>2024-04-15T09:21:19.452Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kyeonghwany.github.io/posts/data_standard.html</loc>
-    <lastmod>2024-04-15T09:21:20.940Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kyeonghwany.github.io/posts/gittip.html</loc>
-    <lastmod>2024-04-15T09:21:22.366Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kyeonghwany.github.io/posts/preprocess.html</loc>
-    <lastmod>2024-04-15T09:21:25.870Z</lastmod>
+    <lastmod>2024-04-17T02:57:11.948Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/posts/pypots_tutorial.html</loc>
-    <lastmod>2024-04-15T09:21:27.090Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kyeonghwany.github.io/posts/quarto.html</loc>
-    <lastmod>2024-04-15T09:21:28.347Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kyeonghwany.github.io/posts/settting.html</loc>
-    <lastmod>2024-04-15T09:21:30.120Z</lastmod>
+    <lastmod>2024-04-17T02:57:13.411Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/posts.html</loc>
-    <lastmod>2024-04-15T09:21:36.619Z</lastmod>
+    <lastmod>2024-04-17T02:57:14.085Z</lastmod>
   </url>
   <url>
-    <loc>https://kyeonghwany.github.io/project/project_data_QC.html</loc>
-    <lastmod>2024-04-15T09:21:32.263Z</lastmod>
+    <loc>https://kyeonghwany.github.io/project/2024-04-16-opendata-qc.html</loc>
+    <lastmod>2024-04-17T02:57:15.507Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/project.html</loc>
-    <lastmod>2024-04-15T09:21:38.911Z</lastmod>
+    <lastmod>2024-04-17T02:57:16.067Z</lastmod>
   </url>
 </urlset>

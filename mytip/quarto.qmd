@@ -1,21 +1,19 @@
 ---
 title: "quarto tip!"
-author: "kyeonghwany"
+author: "김경환"
+date: 2023-09-17
+date-modified: last-modified
+categories:
+  - quarto
 ---
 
-quarto를 사용하면서 알아낸 tip 정리
-
-[quarto 공식문서](https://quarto.org/)
-
-# 기본적인 마크다운 작성
-
-해당 팁은 .qmd 안에서만 작동할 수도 있음.
+[quarto](https://quarto.org/)를 사용하면서 알아낸 tip 정리
 
 ## 코드 작성
 
-qmd에서 코드블럭을을 작성할 때 ```` ``` ````로 감싸서 작성
+qmd에서 코드블럭을 작성할 때 ```` ``` ````로 감싸서 작성
 
-````markdown
+```` markdown
 ```
 code
 ```
@@ -25,13 +23,13 @@ code
 
 `defalut`를 사용하면 지원하지 않는는 언어도 유사하게 처리를 해준다.
 
-````markdown
+```` markdown
 ``` r
 code <- 1
 ```
 ````
 
-````markdown
+```` markdown
 ``` defalut
 code = 1
 ```
@@ -39,22 +37,17 @@ code = 1
 
 만약 코드의 파일명 또는 프로그램명을 명시하고싶다면,
 
-+----------------+-----------------------------------+
-| input          |                                   |
-|                | ```` markdown                     |
-|                | ``` {.r filename="tmp.r"}         |
-|                | code = 1                          |
-|                | ```                               |
-|                | ````                              |
-|                |                                   |
-+----------------+-----------------------------------+
-| output         |                                   |
-|                | ``` {.r filename="tmp.r"}         |
-|                | code = 1                          |
-|                | ```                               |
-|                |                                   |
-+----------------+-----------------------------------+
-
++----------------+-----------------------------+
+| input          | ```` markdown               |
+|                | ``` {.r filename="tmp.r"}   |
+|                | code = 1                    |
+|                | ```                         |
+|                | ````                        |
++----------------+-----------------------------+
+| output         | ``` {.r filename="tmp.r"}   |
+|                | code = 1                    |
+|                | ```                         |
++----------------+-----------------------------+
 
 ## Callout Blocks
 
@@ -90,15 +83,13 @@ Callout blocks에는 5가지 옵션을 사용할 수 있습니다.
 
 {{< kbd Shift-Ctrl-P >}}
 
-# HTML
+## Publishing
 
-# Publishing
+quarto 문서를 만들었다면 다양한 루트로 Publishing이 가능하다.
 
-quarto 문서를 만들었다면 다양한 루트로 Publishing이 가능하다. 
+### github pages
 
-## github pages
-
-github pages는 docs라는 디렉토리에서 렌더링 되기때문에 _quarto.yml에 다음 코드를 추가해줘야 한다.
+github pages는 docs라는 디렉토리에서 렌더링 되기때문에 \_quarto.yml에 다음 코드를 추가해줘야 한다.
 
 ``` {.yaml filename="_quarto.yml"}
 project:
@@ -106,7 +97,7 @@ project:
   output-dir: docs
 ```
 
-그리고 `.nojekyll`도 추가, window11에서 Rstudio terminal를 이용 시 `copy`가 실행되지 않았는데 오히려 `touch`는 잘 작동되었다.  
+그리고 `.nojekyll`도 추가, window11에서 Rstudio terminal를 이용 시 `copy`가 실행되지 않았는데 오히려 `touch`는 잘 작동되었다.
 
 +---------------+---------------------------------+
 | Mac/Linux     | ``` {.bash filename="Terminal"} |
@@ -120,14 +111,14 @@ project:
 
 github pages에 Publishing할때 필요 없는 디렉토리는 `.gitignore`에 추가하는 것이 좋다. github pages에서 `_site`, `_book`등 디렉토리는 모두 `docs`에서 render되기 때문이다.
 
-```{.bash filename=".gitignore"}
+``` {.bash filename=".gitignore"}
 /.quarto/
 /_site/
 ```
 
 만약 이미 push했다면,
 
-```{.bash filename="Terminal"}
+``` {.bash filename="Terminal"}
 git rm -r _site
 ```
 
@@ -137,5 +128,3 @@ git rm -r _site
 quarto render
 git push
 ```
-
-[컴퓨터와 github를 연동하는 방법은 따로 포스팅]()

@@ -1,6 +1,12 @@
 ---
 title: "bayesian with stan"
-author: "kyeonghwany"
+author: "김경환"
+date: 2023-09-06
+date-modified: 2023-09-06
+categories:
+  - R
+  - stan
+  - bayesian
 ---
 
 bayesian 이론 정리 및 stan을 통한 분석
@@ -13,7 +19,7 @@ r에서 stan을 활용하기 위해서는 rtools 설치가 필요하다. windows
 
 # 단순회귀모형
 
-````stan
+``` stan
 data {
   int N;
   real X[N];
@@ -32,10 +38,9 @@ model {
     Y[n] ~ normal(a + b * X[n], sigma);
   }
 }
+```
 
-````
-
-```r
+``` r
 library(rstan)
 data <- list(N=nrow(cars), X=cars$dist, Y=cars$speed)
 fit <- stan(file = "lm.stan", data = data, seed=1234)
@@ -43,7 +48,7 @@ fit <- stan(file = "lm.stan", data = data, seed=1234)
 fit
 ```
 
-```terminal
+``` terminal
 > fit
 Inference for Stan model: lm.
 4 chains, each with iter=2000; warmup=1000; thin=1; 
