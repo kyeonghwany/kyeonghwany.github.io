@@ -31,8 +31,10 @@ website:
 
 format:
   html:
-    theme: minty
-    css: styles.css
+    theme:
+      - minty
+      - custom.scss
+
     toc: true
     
     code-fold: true

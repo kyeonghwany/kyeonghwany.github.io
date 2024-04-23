@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+
+
+$headings-font-family:        "Hahmlet", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-sans-serif:      "Gothic A1", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+/*-- scss:rules --*/
+
+
+// Variables
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Gothic+A1&family=Hahmlet:wght@100..900&display=swap";
+@if $web-font-path {
+  @import url($web-font-path);
+}
