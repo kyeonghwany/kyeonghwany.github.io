@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Project",
+    "section": "",
+    "text": "전라북도 공공데이터 품질관리 프로젝트\n\n\n\n\n\n\n\n공공데이터\n\n\n데이터 표준화\n\n\n데이터 품질관리\n\n\n\n\n공공데이터 품질관리에 대한 개념과 제가 경험한 평가 대응 방법을 공유합니다.\n\n\n\n\n\n\nApr 16, 2024\n\n\n김경환\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "portfolio",
@@ -26,34 +33,6 @@
     "title": "portfolio",
     "section": "Project list",
     "text": "Project list\n\n김제 스마트팜 혁신밸리 데이터 수집 및 분석 | 2023.10 - 2024.04\n\n(주)좋은정보기술 연구개발팀 근무\n혁신밸리 데이터 수집, 처리, 적재 프로세스 구성\n온실 미기후 데이터 품질관리\n작물 생육 측정 데이터 품질관리\n수집 데이터 활용 분석 서비스 제공\n대시보드 설계\n\n\n\n전라북도 공공데이터 품질관리 | 2023.09 - 2023.11\n\n(주)좋은정보기술 연구개발팀 근무\n공공데이터 품질관리 수준평가 대응, 평가 결과 96점 달성\n업무담당자 대상 공공데이터 품질관리 교육\n24개 평가 대상 DB 품질진단 및 개선(표준, 구조, 연계, 값 진단 및 개선)\n개방데이터 품질 진단 및 개선\n프로젝트 상세\n\n\n\n고품질 농업 데이터 수집 및 분석 | 2023.06 - 2023.12\n\n(주)좋은정보기술 연구개발팀 근무\n온실 미기후 데이터 품질관리\n작물 생육 측정 데이터 품질관리\n수집 데이터 활용 분석(미기후 데이터 시계열 군집분석, 결측치 처리 모델)\n\n\n\n차량 이미지 정보 인식 개발 | 2022.07\n\n쏘카 실전 데이터로 배우는 AI 엔지니어 육성 부트캠프 2기\nPython, Pytorch\n차량 이미지에서 차량 부품별 인식\n차량 사진을 찍은 각도 추출 모델 개발\n프로젝트 상세\n\n\n\n우편서비스 배달업무환경 분석 | 2021.09 - 2022.02\n\n한국전자통신연구원 우정물류기술연구센터 인턴\n배달업무 평준화 및 운영 효율화 설계를 위한 배달업무환경 분석\n초과근무시간 예측을 위한 EDA 및 feature engineering\n초과근무시간 예측 모델링\n프로젝트 상세\n\n\n\n수출동향파악을 위한 수출물량 시계열 분석 | 2021.09 - 2022.02\n\n한국전자통신연구원 우정물류기술연구센터 인턴\n공공데이터 API를 이용한 수출물량 자동 수집기 개발\n주식시장 데이터, 경제지수 데이터 수집\n국가별 주요 수출 품목 시계열 분석\n프로젝트 상세\n\n\n\n작업복 세탁소 수요 예측 및 입지 분석 | 2021.07 - 2021.08\n\n공공빅데이터 청년 인턴십\n공장 위치정보 및 특성, 작업복 세탁량 데이터 전처리\n작업복 세탁소가 필요한 공장의 특성 도출\n공장별 작업복 세탁 수요 예측\n작업복 세탁소 최적 입지 시각화\n프로젝트 상세"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "김경환",
-    "section": "",
-    "text": "안녕하세요, 데이터 분석가 김경환입니다. 저는 데이터를 통해 문제를 정의하고 다양한 데이터를 활용하여 문제를 해결하는 것에 관심이 있습니다.\n여러 프로젝트 및 사업을 통해 데이터 수집부터 데이터 표준화, 데이터 품질관리, 데이터 분석 및 서비스까지 일련의 과정을 진행한 경험이 있으며 이를 위해 다양한 툴을 활용하여 업무를 진행하고 있습니다."
-  },
-  {
-    "objectID": "mytip/gittip.html",
-    "href": "mytip/gittip.html",
-    "title": "git tip!",
-    "section": "",
-    "text": "git과 github 관련된 팁 정리\n먼저 git설치 및 github계정 생성 후 git bash에 다음을 입력."
-  },
-  {
-    "objectID": "mytip/gittip.html#rstudio-버전",
-    "href": "mytip/gittip.html#rstudio-버전",
-    "title": "git tip!",
-    "section": "rstudio 버전",
-    "text": "rstudio 버전\n\nrstudio &gt; Tools &gt; Global Options &gt; Git.SVN에서 ssh키 생성\ngithub계정에 ssh키 등록"
-  },
-  {
-    "objectID": "mytip/gittip.html#터미널",
-    "href": "mytip/gittip.html#터미널",
-    "title": "git tip!",
-    "section": "터미널",
-    "text": "터미널\ncd ~\nssh-keygen\ncd ~/.ssh\ncat id_rsa.pub\n이후 나타난 문자열을 복사하여 github에 등록"
   },
   {
     "objectID": "mytip/quarto.html",
@@ -98,6 +77,20 @@
     "text": "컴퓨터 초기화 후 세팅하는 법 정리(wsl, R, conda 등)\n\nR설치(jdk도 추가)\n\nc드라이브에 R폴더 생성\n설치파일 다운로드\n\n\nR\nRstudio\nRtools\njdk\n\n\nR과 Rstudio는 C:\\R에 관리자권한으로 설치(기본값으로)\njdk, Rtools는 기본 경로에 설치(기본값으로).\n자주 사용하는 필수 패키지 목록\n\n\ntidyverse\ncaret\n\n\n\nanaconda3 설치\n\nanaconda3 설치파일 다운로드 및 설치(기본값으로)\n\n\n\nVS code 설치\n\nvs code 설치링크\nms store에도 있음\npath에 추가 옵션 선택\n\n\n\nwindow11에서 wsl을 이용해 linux 설치\n\nms 공식 설명서1\nms 공식 설명서2\n\n\npowershell열고 다음을 입력하여 linux설치\n\nwsl --install\n설치 후 컴퓨터를 다시 시작\n\n사용자 이름 및 암호 설정\n\n컴퓨터를 다시 시작하면 바로 우분투 터미널 창이 열린다. 사용자 이름과 암호를 입력. 입력한 계정은 sudo 권한이 부여된다.\n\n패키지 업데이트 및 업그레이드\n\nsudo apt update && sudo apt upgrade\n\nvs code 확장팩 설치 및 연결\n\n\nremote dev 확장팩 설치\n우분투에서 code .을 입력하면 vs code로 연결됨\n윈도우 vs code에서 ctrl+shift+p를 통해서도 연결 가능\n\n\n\n우분투에서 R와 Rstudio-server 설치\n\n참고자료, 변할 수 있으니 확인 (지금은 우분투 22.04)\n\nrstudio-server download\nR 설치 간편설명\nR 설치 설명\n\n\n\nR설치\n\n# update indices\nsudo apt update -qq\n# install two helper packages we need\nsudo apt install --no-install-recommends software-properties-common dirmngr\n# add the signing key (by Michael Rutter) for these repos\n# To verify key, run gpg --show-keys /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc \n# Fingerprint: E298A3A825C0D65DFD57CBB651716619E084DAB9\nwget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc\n# add the R 4.0 repo from CRAN -- adjust 'focal' to 'groovy' or 'bionic' as needed\nsudo add-apt-repository \"deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/\"\nsudo apt install --no-install-recommends r-base\nsudo apt-get install r-base-dev\nsudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+\n$(lsb_release -cs) = jammy, 우분투22.04의 코드네임\n\nrstudio-server 설치\n\nsudo apt-get install gdebi-core\nwget https://download2.rstudio.org/server/jammy/amd64/rstudio-server-2023.03.1-446-amd64.deb\nsudo gdebi rstudio-server-2023.03.1-446-amd64.deb\n\n실행\n\nsudo rstudio-server start\n실행 후 http://{local ip주소}:8787/에 접속\n\n\n우분투에서 conda 설치\n참고자료\n\nsystem repositories 업데이트\n\nsudo apt update\n\ncurl 패키지 설치\n\nsudo apt install curl -y\n\nanaconda 설치\n\n/tmp 디렉토리로 이동\ncd /tmp\n설치파일 다운로드, 여기서 원하는 버전 선택\ncurl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh\n‘SHA-256’ 다운로드\nsha256sum anaconda.sh\n설치 프로그램 실행\nbash anaconda.sh\n\n.bashrc에 변경된 환경설정 활성화\n\nsource ~/.bashrc\n\n설치 확인\n\nconda list\n\n기타 설정\n\n\nconda 설정 보기\n\nconda config --show\n\nconda 자동 활성화 모드 on/off\n\nconda config --set auto_activate_base {True/False}\n\nconda 실행/종료\n\nconda activate\nconda deactivate\n\n\nconda에서 자주 설치하는 패키지\nconda 패키지 검색\nconda create -n 가상환경이름 python=3.7.13\nconda install pytorch torchvision torchaudio cpuonly -c pytorch\nconda install -c conda-forge pandas\nconda install -c conda-forge matplotlib\nconda install -c conda-forge scikit-learn\nconda install -c conda-forge jupyter"
   },
   {
+    "objectID": "posts/pypots_tutorial.html",
+    "href": "posts/pypots_tutorial.html",
+    "title": "pypots tutorial",
+    "section": "",
+    "text": "pypots은 시계열 처리(결측, 예측, 분류, 군집)을 쉽게 처리할 수 있도록 만든 패키지\n\npypots 설치\n# by pip\npip install pypots            # the first time installation\npip install pypots --upgrade  # update pypots to the latest version\n\n# by conda\nconda install -c conda-forge pypots  # the first time installation\nconda update  -c conda-forge pypots  # update pypots to the latest version\n\n\npreparing data\nfrom pypots.data.generating import gene_physionet2012\nphysionet2012_dataset = gene_physionet2012(artificially_missing_rate=0.1)\ndataset_for_training = {\n    \"X\": physionet2012_dataset['train_X'],\n}\n\ndataset_for_validating = {\n    \"X\": physionet2012_dataset['val_X'],\n    \"X_intact\": physionet2012_dataset['val_X_intact'],\n    \"indicating_mask\": physionet2012_dataset['val_X_indicating_mask'],\n}\n\ndataset_for_testing = {\n    \"X\": physionet2012_dataset['test_X'],\n}\n\n\n결측치 처리(impute)\nfrom pypots.optim import Adam\nfrom pypots.imputation import SAITS\n\n# initialize the model\nsaits = SAITS(\n    n_steps=physionet2012_dataset['n_steps'],\n    n_features=physionet2012_dataset['n_features'],\n    n_layers=2,\n    d_model=256,\n    d_inner=128,\n    n_heads=4,\n    d_k=64,\n    d_v=64,\n    dropout=0.1,\n    attn_dropout=0.1,\n    diagonal_attention_mask=True,  # otherwise the original self-attention mechanism will be applied\n    ORT_weight=1,  # you can adjust the weight values of arguments ORT_weight\n    # and MIT_weight to make the SAITS model focus more on one task. Usually you can just leave them to the default values, i.e. 1.\n    MIT_weight=1,\n    batch_size=32,\n    # here we set epochs=10 for a quick demo, you can set it to 100 or more for better performance\n    epochs=10,\n    # here we set patience=3 to early stop the training if the evaluting loss doesn't decrease for 3 epoches.\n    # You can leave it to defualt as None to disable early stopping.\n    patience=3,\n    # give the optimizer. Different from torch.optim.Optimizer, you don't have to specify model's parameters when\n    # initializing pypots.optim.Optimizer. You can also leave it to default. It will initilize an Adam optimizer with lr=0.001.\n    optimizer=Adam(lr=1e-3),\n    # this num_workers argument is for torch.utils.data.Dataloader. It's the number of subprocesses to use for data loading.\n    # Leaving it to default as 0 means data loading will be in the main process, i.e. there won't be subprocesses.\n    # You can increase it to &gt;1 if you think your dataloading is a bottleneck to your model training speed\n    num_workers=0,\n    # just leave it to default, PyPOTS will automatically assign the best device for you.\n    # Set it to 'cpu' if you don't have CUDA devices. You can also set it to 'cuda:0' or 'cuda:1' if you have multiple CUDA devices.\n    device='cpu',  \n    # set the path for saving tensorboard and trained model files \n    saving_path=\"tutorial_results/imputation/saits\",\n    # only save the best model after training finished.\n    # You can also set it as \"better\" to save models performing better ever during training.\n    model_saving_strategy=\"best\",\n)\n# train the model on the training set, and validate it on the validating set to select the best model for testing in the next step\nsaits.fit(train_set=dataset_for_training, val_set=dataset_for_validating)\n# the testing stage, impute the originally-missing values and artificially-missing values in the test set\nsaits_imputation = saits.impute(dataset_for_testing)\nfrom pypots.utils.metrics import cal_mae\n\n# calculate mean absolute error on the ground truth (artificially-missing values)\ntesting_mae = cal_mae(\n    saits_imputation, physionet2012_dataset['test_X_intact'], physionet2012_dataset['test_X_indicating_mask'])\nprint(\"Testing mean absolute error: %.4f\" % testing_mae)"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "bayesian with stan\n\n\n\n\n\n\n\nR\n\n\nstan\n\n\nbayesian\n\n\n\n\n\n\n\n\n\n\n\nSep 6, 2023\n\n\n김경환\n\n\n\n\n\n\n  \n\n\n\n\npypots tutorial\n\n\n\n\n\n\n\npython\n\n\npypots\n\n\ntime series\n\n\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\n김경환\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "mytip.html",
     "href": "mytip.html",
     "title": "MY Tip",
@@ -112,18 +105,25 @@
     "text": "bayesian 이론 정리 및 stan을 통한 분석\n\nstan 사용 환경 설정\nr에서 stan을 활용하기 위해서는 rtools 설치가 필요하다. windows 환경에서 rtools4.2부터는 별도의 환경변수 설정 없이 설치만 하면 이용이 가능하다고 했지만 stan은 다른 설정이 필요한 듯하다.\n해결방법을 찾을 때까지는 wsl ubuntu에서 stan을 사용\n\n\n단순회귀모형\ndata {\n  int N;\n  real X[N];\n  real Y[N];\n}\n\nparameters {\n  real a;\n  real b;\n  real mu;\n  real&lt;lower=0&gt; sigma;\n}\n\nmodel {\n  for (n in 1:N) {\n    Y[n] ~ normal(a + b * X[n], sigma);\n  }\n}\nlibrary(rstan)\ndata &lt;- list(N=nrow(cars), X=cars$dist, Y=cars$speed)\nfit &lt;- stan(file = \"lm.stan\", data = data, seed=1234)\n\nfit\n&gt; fit\nInference for Stan model: lm.\n4 chains, each with iter=2000; warmup=1000; thin=1; \npost-warmup draws per chain=1000, total post-warmup draws=4000.\n\n               mean      se_mean           sd          2.5%           25%           50%         75%         97.5% n_eff Rhat\na      8.290000e+00 2.000000e-02 9.300000e-01  6.490000e+00  7.650000e+00  8.280000e+00  8.9100e+00  1.008000e+01  2785 1.00\nb      1.700000e-01 0.000000e+00 2.000000e-02  1.300000e-01  1.500000e-01  1.700000e-01  1.8000e-01  2.000000e-01  2754 1.00\nmu    -1.028316e+15 4.466057e+15 8.995785e+15 -1.499126e+16 -6.540879e+15 -8.474066e+14  5.6003e+14  2.555615e+16     4 2.08\nsigma  3.240000e+00 1.000000e-02 3.400000e-01  2.650000e+00  3.000000e+00  3.210000e+00  3.4500e+00  4.000000e+00  3346 1.00\nlp__  -8.189000e+01 3.000000e-02 1.250000e+00 -8.511000e+01 -8.250000e+01 -8.157000e+01 -8.0950e+01 -8.043000e+01  1616 1.00\n\nSamples were drawn using NUTS(diag_e) at Wed Jun 14 23:46:43 2023.\nFor each parameter, n_eff is a crude measure of effective sample size,\nand Rhat is the potential scale reduction factor on split chains (at \nconvergence, Rhat=1)."
   },
   {
-    "objectID": "posts/pypots_tutorial.html",
-    "href": "posts/pypots_tutorial.html",
-    "title": "pypots tutorial",
+    "objectID": "mytip/gittip.html",
+    "href": "mytip/gittip.html",
+    "title": "git tip!",
     "section": "",
-    "text": "pypots은 시계열 처리(결측, 예측, 분류, 군집)을 쉽게 처리할 수 있도록 만든 패키지\n\npypots 설치\n# by pip\npip install pypots            # the first time installation\npip install pypots --upgrade  # update pypots to the latest version\n\n# by conda\nconda install -c conda-forge pypots  # the first time installation\nconda update  -c conda-forge pypots  # update pypots to the latest version\n\n\npreparing data\nfrom pypots.data.generating import gene_physionet2012\nphysionet2012_dataset = gene_physionet2012(artificially_missing_rate=0.1)\ndataset_for_training = {\n    \"X\": physionet2012_dataset['train_X'],\n}\n\ndataset_for_validating = {\n    \"X\": physionet2012_dataset['val_X'],\n    \"X_intact\": physionet2012_dataset['val_X_intact'],\n    \"indicating_mask\": physionet2012_dataset['val_X_indicating_mask'],\n}\n\ndataset_for_testing = {\n    \"X\": physionet2012_dataset['test_X'],\n}\n\n\n결측치 처리(impute)\nfrom pypots.optim import Adam\nfrom pypots.imputation import SAITS\n\n# initialize the model\nsaits = SAITS(\n    n_steps=physionet2012_dataset['n_steps'],\n    n_features=physionet2012_dataset['n_features'],\n    n_layers=2,\n    d_model=256,\n    d_inner=128,\n    n_heads=4,\n    d_k=64,\n    d_v=64,\n    dropout=0.1,\n    attn_dropout=0.1,\n    diagonal_attention_mask=True,  # otherwise the original self-attention mechanism will be applied\n    ORT_weight=1,  # you can adjust the weight values of arguments ORT_weight\n    # and MIT_weight to make the SAITS model focus more on one task. Usually you can just leave them to the default values, i.e. 1.\n    MIT_weight=1,\n    batch_size=32,\n    # here we set epochs=10 for a quick demo, you can set it to 100 or more for better performance\n    epochs=10,\n    # here we set patience=3 to early stop the training if the evaluting loss doesn't decrease for 3 epoches.\n    # You can leave it to defualt as None to disable early stopping.\n    patience=3,\n    # give the optimizer. Different from torch.optim.Optimizer, you don't have to specify model's parameters when\n    # initializing pypots.optim.Optimizer. You can also leave it to default. It will initilize an Adam optimizer with lr=0.001.\n    optimizer=Adam(lr=1e-3),\n    # this num_workers argument is for torch.utils.data.Dataloader. It's the number of subprocesses to use for data loading.\n    # Leaving it to default as 0 means data loading will be in the main process, i.e. there won't be subprocesses.\n    # You can increase it to &gt;1 if you think your dataloading is a bottleneck to your model training speed\n    num_workers=0,\n    # just leave it to default, PyPOTS will automatically assign the best device for you.\n    # Set it to 'cpu' if you don't have CUDA devices. You can also set it to 'cuda:0' or 'cuda:1' if you have multiple CUDA devices.\n    device='cpu',  \n    # set the path for saving tensorboard and trained model files \n    saving_path=\"tutorial_results/imputation/saits\",\n    # only save the best model after training finished.\n    # You can also set it as \"better\" to save models performing better ever during training.\n    model_saving_strategy=\"best\",\n)\n# train the model on the training set, and validate it on the validating set to select the best model for testing in the next step\nsaits.fit(train_set=dataset_for_training, val_set=dataset_for_validating)\n# the testing stage, impute the originally-missing values and artificially-missing values in the test set\nsaits_imputation = saits.impute(dataset_for_testing)\nfrom pypots.utils.metrics import cal_mae\n\n# calculate mean absolute error on the ground truth (artificially-missing values)\ntesting_mae = cal_mae(\n    saits_imputation, physionet2012_dataset['test_X_intact'], physionet2012_dataset['test_X_indicating_mask'])\nprint(\"Testing mean absolute error: %.4f\" % testing_mae)"
+    "text": "git과 github 관련된 팁 정리\n먼저 git설치 및 github계정 생성 후 git bash에 다음을 입력."
   },
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Posts",
-    "section": "",
-    "text": "bayesian with stan\n\n\n\n\n\n\n\nR\n\n\nstan\n\n\nbayesian\n\n\n\n\n\n\n\n\n\n\n\nSep 6, 2023\n\n\n김경환\n\n\n\n\n\n\n  \n\n\n\n\npypots tutorial\n\n\n\n\n\n\n\npython\n\n\npypots\n\n\ntime series\n\n\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\n김경환\n\n\n\n\n\n\nNo matching items"
+    "objectID": "mytip/gittip.html#rstudio-버전",
+    "href": "mytip/gittip.html#rstudio-버전",
+    "title": "git tip!",
+    "section": "rstudio 버전",
+    "text": "rstudio 버전\n\nrstudio &gt; Tools &gt; Global Options &gt; Git.SVN에서 ssh키 생성\ngithub계정에 ssh키 등록"
+  },
+  {
+    "objectID": "mytip/gittip.html#터미널",
+    "href": "mytip/gittip.html#터미널",
+    "title": "git tip!",
+    "section": "터미널",
+    "text": "터미널\ncd ~\nssh-keygen\ncd ~/.ssh\ncat id_rsa.pub\n이후 나타난 문자열을 복사하여 github에 등록"
   },
   {
     "objectID": "project/2024-04-16-opendata-qc.html",
@@ -175,10 +175,10 @@
     "text": "프로젝트 간 문제 해결\n데이터 품질관리에 대한 개념과 품질진단 툴(DA#, WDQ 등) 활용법만 읽어 보면 쉽게 끝날 수 있는 프로젝트로 보이지만 실무를 하다보니 여러가지 어려움이 있었습니다.\n\n표준이 없었던 정보시스템(DB)에 대한 표준 사전 정의\n평가를 진행했던 DB 23개 중 대부분이 범정부 표준이 제정되기 이전에 구축되었기 때문에 표준이 적용되지 않은 상태였습니다. 만점을 얻기 위해서는 표준적용률 90% 이상을 달성해야하기 때문에 DB내 컬럼을 표준용어로 등록 후 표준도메인, 표준코드, 표준단어를 만들어야 하는 과정이 필요했습니다.\n\n\n\n\nflowchart LR\n    A(DB 내 컬럼) --&gt; B[표준 용어]\n    B --&gt; C[표준 도메인]\n    B --&gt; D[표준 코드]\n    B --&gt; E[표준 단어]\n\n\n\n\n\n정의된 표준 용어로부터 표준 도메인, 표준 코드, 표준 단어를 만들어 내는 과정은 정해진 규칙에 따라 만들면 되기 때문에 어렵지 않습니다. 하지만 컬럼명에서 표준용어를 만들기 위해서는 각 컬럼명을 확인하여 적절한 도메인 분류명을 정의해줘야 했습니다. 평균적으로 DB 1개 당 등록해야할 표준 용어가 200개 정도라고 한다면 23개 DB를 모두 정의해줘야 했으므로 4600개의 도메인 분류명을 정의해야 했습니다.\n\n도메인분류명 정의 전 표준용어{.hover .bordered}\n\n\n표준용어명\n영문약어명\n표준도메인명\n\n\n\n\nIP주소\nIP_ADDR\n{적절한 도메인명}V15\n\n\n가맹점명\nFRCS_NM\n{적절한 도메인명}V200\n\n\n법정동시도코드\nSTDG_CTPV_CD\n{적절한 도메인명}C2\n\n\n\n수작업으로 컬럼명을 확인하고 분류명을 정하는 작업은 시간이 오래 걸리는 단순 반복 작업입니다. 이를 해결하기 위해 chat gpt API를 활용하여 도메인 분류 모델을 만들었습니다.\n\n\n\n\nflowchart LR\n    A[표준 용어] --&gt;|chat gpt API| B[도메인 분류명]\n\n\n\n\n\n\n\n컬럼명은 같지만 도메인이 다른 경우\n표준 등록만으로 표준적용율을 올릴 수 없는 경우가 있습니다. DB내 정의된 물리컬럼명은 같지만 정의된 도메인이 다른 경우 입니다. 표준 용어 사전에는 하나의 영문약어명만 등록될 수 있기 때문에 여러 도메인을 가진 동일한 물리컬럼명의 경우 하나의 도메인만 표준을 적용한 것으로 측정됩니다.\n\n컬럼명은 같지만 도메인이 다른 경우\n\n\n테이블명\n물리컬럼명\n데이터 타입\n데이터 길이\n\n\n\n\ntable1\ncolname\nchar\n10\n\n\ntable2\ncolname\nvarchar\n200\n\n\ntable3\ncolname\nvarchar\n100\n\n\ntable4\ncolname\nvarchar\n100\n\n\n\n이 경우 정보시스템 유지보수 담당자와 미팅을 통해 물리컬럼명이나 도메인이 변경이 가능한 지 확인 후 불가능하다면 가장 많이 사용한 도메인을 표준용어의 도메인으로 등록하여 진단을 수행했습니다.\n\n\n프로파일링을 통한 업무규칙 생성\n공공데이터 품질관리 수준평가에서는 진단 대상 컬럼에 대해 진단룰을 설정해야합니다. 이를 위해 프로파일링이라는 과정을 통해 진단룰을 도출해야 합니다.\n프로파일링이란 실제 데이터의 통계 및 패턴 분석을 통해 오류가 추정되는 데이터를 찾아내는 기법입니다.\n\nraw 단계부터 데이터 분석을 수행하다 보면 데이터에 대한 특성 파악, 전처리에 시간이 많이 들곤 합니다. 만약 데이터 표준화와 데이터 품질관리가 잘 갖춰진 데이터라면 이 부분에 대한 시간이 많이 줄어들 수 있을 것으로 예상이 됩니다. 그 이유는,\n\n현행화된 메타데이터를 통해 데이터 특성을 쉽게 파악할 수 있습니다.\n표준화된 데이터이기 때문에 데이터 결합 과정이 수월합니다.\n데이터 품질관리 과정을 통해 산출된 지표를 통해 데이터 품질수준을 파악할 수 있고 고품질 데이터를 확보할 수 있습니다.\n전처리 과정에서 필요한 결측치, 이상치 도출에 대한 힌트를 얻을 수 있습니다.\n\n이 외에도 많은 장점이 있을 것입니다. OECD가 실시한 2023 공공데이터 평가에서 대한민국이 1위를 달성했고 공공데이터 포털 및 여러 플랫폼을 통해서 활용 가능성이 높은 데이터들이 많이 개방된 상태입니다. 앞으로도 공공데이터가 많은 가치를 창출할 수 있는 데이터로 발전할 것으로 기대가 됩니다."
   },
   {
-    "objectID": "project.html",
-    "href": "project.html",
-    "title": "Project",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "김경환",
     "section": "",
-    "text": "전라북도 공공데이터 품질관리 프로젝트\n\n\n\n\n\n\n\n공공데이터\n\n\n데이터 표준화\n\n\n데이터 품질관리\n\n\n\n\n공공데이터 품질관리에 대한 개념과 제가 경험한 평가 대응 방법을 공유합니다.\n\n\n\n\n\n\nApr 16, 2024\n\n\n김경환\n\n\n\n\n\n\nNo matching items"
+    "text": "안녕하세요, 데이터 분석가 김경환입니다. 저는 데이터를 통해 문제를 정의하고 다양한 데이터를 활용하여 문제를 해결하는 것에 관심이 있습니다.\n여러 프로젝트 및 사업을 통해 데이터 수집부터 데이터 표준화, 데이터 품질관리, 데이터 분석 및 서비스까지 일련의 과정을 진행한 경험이 있으며 이를 위해 다양한 툴을 활용하여 업무를 진행하고 있습니다."
   }
 ]

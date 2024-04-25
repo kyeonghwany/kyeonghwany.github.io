@@ -12,6 +12,9 @@ categories:
 
 ```{r include=FALSE}
 library(ggvenn)
+library(showtext)
+font_add_google("Noto Sans KR")
+showtext_auto()
 ```
 
 2023년 7월, 전라북도 공공데이터 품질관리 용역를 수행했습니다. 결론적으로 중요 지표였던 **공공데이터 품질관리 수준평가 96점을 달성**하여 전라북도청 평가점수 최고점을 갱신했습니다. 데이터 표준화와 데이터 품질관리에 대한 실무를 접할 수 있는 사업이었습니다.
@@ -248,9 +251,11 @@ $$
 a <- list(`컬럼정의서` = 1:100,
           `물리DB컬럼` = 10:110)
 ggvenn(a, c("컬럼정의서", "물리DB컬럼"),
-       fill_color = c("blue", "pink")) + 
+       fill_color = c("blue", "pink"),
+       set_name_size = 10,
+       text_size = 10) + 
   ggtitle("구조 현행화율 산출 예시") + 
-  theme(plot.title = element_text(hjust = 0.5))
+  theme(plot.title = element_text(hjust = 0.5, size = 30))
 ```
 
 -   테이블현행화율(%) = $\frac{n(테이블\ 정의서 \cap 물리\ DB\ 테이블)}{n(물리\ DB\ 테이블)} \times 100$
