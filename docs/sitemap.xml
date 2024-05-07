@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kyeonghwany.github.io/project.html</loc>
-    <lastmod>2024-04-25T08:25:59.787Z</lastmod>
+    <lastmod>2024-04-30T07:57:48.099Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/about.html</loc>
-    <lastmod>2024-04-25T08:25:59.217Z</lastmod>
+    <lastmod>2024-04-30T07:57:46.439Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/mytip/quarto.html</loc>
-    <lastmod>2024-04-25T08:25:50.618Z</lastmod>
+    <lastmod>2024-04-30T07:57:52.409Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/mytip/settting.html</loc>
@@ -22,11 +22,11 @@
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/posts.html</loc>
-    <lastmod>2024-04-25T08:25:44.328Z</lastmod>
+    <lastmod>2024-05-07T02:03:57.560Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/mytip.html</loc>
-    <lastmod>2024-04-25T08:25:44.778Z</lastmod>
+    <lastmod>2024-04-30T07:57:49.649Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/posts/bayesian_with_stan.html</loc>
@@ -43,5 +43,9 @@
   <url>
     <loc>https://kyeonghwany.github.io/index.html</loc>
     <lastmod>2024-04-25T08:25:59.467Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeonghwany.github.io/posts/2024-04-26-Installing_r_using_docker.html</loc>
+    <lastmod>2024-05-07T02:03:57.080Z</lastmod>
   </url>
 </urlset>

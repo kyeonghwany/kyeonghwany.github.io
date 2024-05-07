@@ -88,7 +88,7 @@
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "bayesian with stan\n\n\n\n\n\n\n\nR\n\n\nstan\n\n\nbayesian\n\n\n\n\n\n\n\n\n\n\n\nSep 6, 2023\n\n\n김경환\n\n\n\n\n\n\n  \n\n\n\n\npypots tutorial\n\n\n\n\n\n\n\npython\n\n\npypots\n\n\ntime series\n\n\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\n김경환\n\n\n\n\n\n\nNo matching items"
+    "text": "docker를 이용하여 Rstudio-server 설치하기\n\n\n\n\n\n\n\ndocker\n\n\nR\n\n\n\n\nwindows에서 wsl + docker + Rstudio-server 환경 구축 방법을 정리\n\n\n\n\n\n\nApr 26, 2024\n\n\n김경환\n\n\n\n\n\n\n  \n\n\n\n\nbayesian with stan\n\n\n\n\n\n\n\nR\n\n\nstan\n\n\nbayesian\n\n\n\n\n\n\n\n\n\n\n\nSep 6, 2023\n\n\n김경환\n\n\n\n\n\n\n  \n\n\n\n\npypots tutorial\n\n\n\n\n\n\n\npython\n\n\npypots\n\n\ntime series\n\n\n\n\n\n\n\n\n\n\n\nAug 7, 2023\n\n\n김경환\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "mytip.html",
@@ -180,5 +180,47 @@
     "title": "김경환",
     "section": "",
     "text": "안녕하세요, 데이터 분석가 김경환입니다. 저는 데이터를 통해 문제를 정의하고 다양한 데이터를 활용하여 문제를 해결하는 것에 관심이 있습니다.\n여러 프로젝트 및 사업을 통해 데이터 수집부터 데이터 표준화, 데이터 품질관리, 데이터 분석 및 서비스까지 일련의 과정을 진행한 경험이 있으며 이를 위해 다양한 툴을 활용하여 업무를 진행하고 있습니다."
+  },
+  {
+    "objectID": "posts/2024-04-26-Installing_r_using_docker.html",
+    "href": "posts/2024-04-26-Installing_r_using_docker.html",
+    "title": "docker를 이용하여 Rstudio-server 설치하기",
+    "section": "",
+    "text": "WSL 설명서에 따라 WSL과 Docker Desktop을 설치\nhttps://rocker-project.org/images/에서 이미지 선택 후 pull 및 run\n\n\n\nTerminal\n\ndocker pull rocker/verse\n\n\n\nTerminal\n\ndocker run -ti -e PASSWORD=yourpassword -p 8787:8787 rocker/verse\n\n\nrstudio server 접속(http://localhost:8787/), ID는 rstudio."
+  },
+  {
+    "objectID": "posts/2024-04-26-Installing_r_using_docker.html#요약",
+    "href": "posts/2024-04-26-Installing_r_using_docker.html#요약",
+    "title": "docker를 이용하여 Rstudio-server 설치하기",
+    "section": "",
+    "text": "WSL 설명서에 따라 WSL과 Docker Desktop을 설치\nhttps://rocker-project.org/images/에서 이미지 선택 후 pull 및 run\n\n\n\nTerminal\n\ndocker pull rocker/verse\n\n\n\nTerminal\n\ndocker run -ti -e PASSWORD=yourpassword -p 8787:8787 rocker/verse\n\n\nrstudio server 접속(http://localhost:8787/), ID는 rstudio."
+  },
+  {
+    "objectID": "posts/2024-04-26-Installing_r_using_docker.html#wsl-설치",
+    "href": "posts/2024-04-26-Installing_r_using_docker.html#wsl-설치",
+    "title": "docker를 이용하여 Rstudio-server 설치하기",
+    "section": "WSL 설치",
+    "text": "WSL 설치\nWSL(Linux용 Windows 하위 시스템)은 별도의 가상 머신 또는 이중 부팅 없이 Windows 컴퓨터에서 Linux 환경을 실행할 수 있는 Windows의 기능입니다.\n설치를 위해서는 microsoft에서 제공하는 WSL 설명서에 따라 진행하면 됩니다. 설명서는 WSL 설치 후 추가 설치할 사항들도 제공하고 있습니다. 저는 VS Code 및 Windows 터미널을 설치했습니다.\n설명서에 따라 진행하더라도 안되는 경우가 있다면 BIOS 가상화 설정이 되어 있는지 확인합니다."
+  },
+  {
+    "objectID": "posts/2024-04-26-Installing_r_using_docker.html#docker-설치",
+    "href": "posts/2024-04-26-Installing_r_using_docker.html#docker-설치",
+    "title": "docker를 이용하여 Rstudio-server 설치하기",
+    "section": "docker 설치",
+    "text": "docker 설치\ndocker 설치 또한 WSL 설명서에 따라 진행하면 됩니다. 설명서에서는 Windows에 Docker desktop 설치를 안내합니다. 설명서에 따라 Docker desktop에서 WSL을 연결하면 WSL에서도 Docker를 사용할 수 있습니다."
+  },
+  {
+    "objectID": "posts/2024-04-26-Installing_r_using_docker.html#docker-hub에서-pull-image",
+    "href": "posts/2024-04-26-Installing_r_using_docker.html#docker-hub에서-pull-image",
+    "title": "docker를 이용하여 Rstudio-server 설치하기",
+    "section": "docker hub에서 pull image",
+    "text": "docker hub에서 pull image\ndocker hub에서 가장 인기 있는 R 관련 image는 Rocker Project 입니다. Rocker Project에서는 다양한 이미지를 docker hub를 통해 제공하고 있습니다. 필요에 따라 원하는 이미지를 선택하면 됩니다.\nrocker/verse 이미지를 다운로드 하기 위해 WSL 터미널에서 다음 코드를 실행합니다.\n\n\nTerminal\n\ndocker pull rocker/verse\n\n이후 Docker desktop에서 이미지가 다운로드된 것을 확인합니다."
+  },
+  {
+    "objectID": "posts/2024-04-26-Installing_r_using_docker.html#컨테이너-실행",
+    "href": "posts/2024-04-26-Installing_r_using_docker.html#컨테이너-실행",
+    "title": "docker를 이용하여 Rstudio-server 설치하기",
+    "section": "컨테이너 실행",
+    "text": "컨테이너 실행\nWSL 터미널에서 다음 코드를 통해 컨테이너를 실행합니다.\n\n\nTerminal\n\ndocker run --rm -ti -e PASSWORD=yourpassword -p 8787:8787 rocker/rstudio\n\n컨테이너가 실행되면 http://localhost:8787/를 통해 rstudio-server에 접속할 수 있습니다. ID는 Rstudio입니다."
   }
 ]
