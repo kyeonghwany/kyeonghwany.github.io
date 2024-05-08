@@ -2,50 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kyeonghwany.github.io/project.html</loc>
-    <lastmod>2024-04-30T07:57:48.099Z</lastmod>
+    <lastmod>2024-05-07T02:36:47.125Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/about.html</loc>
-    <lastmod>2024-04-30T07:57:46.439Z</lastmod>
+    <lastmod>2024-05-07T02:36:46.535Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/mytip/quarto.html</loc>
-    <lastmod>2024-04-30T07:57:52.409Z</lastmod>
+    <lastmod>2024-05-07T02:36:36.865Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/mytip/settting.html</loc>
-    <lastmod>2024-04-25T08:25:48.578Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kyeonghwany.github.io/posts/pypots_tutorial.html</loc>
-    <lastmod>2024-04-25T08:25:46.318Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kyeonghwany.github.io/posts.html</loc>
-    <lastmod>2024-05-07T02:03:57.560Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kyeonghwany.github.io/mytip.html</loc>
-    <lastmod>2024-04-30T07:57:49.649Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kyeonghwany.github.io/posts/bayesian_with_stan.html</loc>
-    <lastmod>2024-04-25T08:25:47.478Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kyeonghwany.github.io/mytip/gittip.html</loc>
-    <lastmod>2024-04-25T08:25:49.398Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kyeonghwany.github.io/project/2024-04-16-opendata-qc.html</loc>
-    <lastmod>2024-04-25T08:25:58.167Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kyeonghwany.github.io/index.html</loc>
-    <lastmod>2024-04-25T08:25:59.467Z</lastmod>
+    <lastmod>2024-05-07T02:36:34.695Z</lastmod>
   </url>
   <url>
     <loc>https://kyeonghwany.github.io/posts/2024-04-26-Installing_r_using_docker.html</loc>
-    <lastmod>2024-05-07T02:03:57.080Z</lastmod>
+    <lastmod>2024-05-07T02:36:32.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeonghwany.github.io/posts/2024-05-07-change_font_in_qmd.html</loc>
+    <lastmod>2024-05-08T07:36:14.706Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeonghwany.github.io/posts.html</loc>
+    <lastmod>2024-05-08T07:36:15.226Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeonghwany.github.io/mytip.html</loc>
+    <lastmod>2024-05-07T02:36:29.564Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeonghwany.github.io/posts/pypots_tutorial.html</loc>
+    <lastmod>2024-05-07T02:36:31.614Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeonghwany.github.io/posts/bayesian_with_stan.html</loc>
+    <lastmod>2024-05-07T02:36:33.584Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeonghwany.github.io/mytip/gittip.html</loc>
+    <lastmod>2024-05-07T02:36:35.525Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeonghwany.github.io/project/2024-04-16-opendata-qc.html</loc>
+    <lastmod>2024-05-07T02:36:45.105Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeonghwany.github.io/index.html</loc>
+    <lastmod>2024-05-07T02:36:46.805Z</lastmod>
   </url>
 </urlset>

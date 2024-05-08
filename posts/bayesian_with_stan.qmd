@@ -2,7 +2,6 @@
 title: "bayesian with stan"
 author: "김경환"
 date: 2023-09-06
-date-modified: 2023-09-06
 categories:
   - R
   - stan

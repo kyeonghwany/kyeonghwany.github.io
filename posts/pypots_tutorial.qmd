@@ -2,7 +2,6 @@
 title: "pypots tutorial"
 author: "김경환"
 date: 2023-08-07
-date-modified: 2023-08-07
 categories:
   - python
   - pypots

@@ -2,7 +2,6 @@
 title: "세팅법 정리"
 author: "김경환"
 date: 2023-06-05
-date-modified: last-modified
 categories:
 ---
 

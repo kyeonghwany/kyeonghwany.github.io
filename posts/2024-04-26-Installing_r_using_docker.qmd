@@ -1,9 +1,8 @@
 ---
 title: "docker를 이용하여 Rstudio-server 설치하기"
-description: windows에서 wsl + docker + Rstudio-server 환경 구축 방법을 정리
+description: "windows에서 wsl + docker + Rstudio-server 환경 구축 방법을 정리"
 author: "김경환"
 date: 2024-04-26
-date-modified: last-modified
 categories:
   - docker
   - R
