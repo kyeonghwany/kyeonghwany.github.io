@@ -1,9 +1,8 @@
 project:
   type: website
-  output-dir: docs
 
 website:
-  title: "Kyeonghwany Blog"
+  title: "Kyeonghwany"
   site-url: 'https://kyeonghwany.github.io'
   site-path: '/'
   
@@ -15,14 +14,10 @@ website:
         text: Home
       - href: posts.qmd
         text: Posts
-      - href: mytip.qmd
-        text: Mytip
       - href: about.qmd
         text: Portfolio
-      - href: project.qmd
-        text: Project
         
-  comments: 
+  comments:
     giscus:
       repo: kyeonghwany/kyeonghwany.github.io
       language: ko
@@ -42,3 +37,7 @@ format:
     code-copy: true
     code-line-numbers: false
     code-block-background: true
+    
+execute:
+  freeze: auto
+  cache: true

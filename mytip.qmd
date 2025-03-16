@@ -1,9 +1,0 @@
----
-title: "MY Tip"
-listing:
-  contents: mytip
-  sort: "date desc"
-  type: default
-  categories: true
-comments: false
----
