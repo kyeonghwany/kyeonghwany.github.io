@@ -23,6 +23,9 @@ website:
 
 format:
   html:
+    template: template.html
+    include-in-header: gtm-header.html
+    include-before-body: gtm-body.html
     theme:
       - minty
       - custom.scss
@@ -33,7 +36,6 @@ format:
     code-line-numbers: false
     code-block-background: true
     
-    include-in-header: gtm-header.html
-    include-before-body: gtm-body.html
+
 execute:
   freeze: auto
