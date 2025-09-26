@@ -22,6 +22,4 @@ comments: false
 format:
     html:
       code-tools: false
-      
-email-obfuscation: javascript
 ---
