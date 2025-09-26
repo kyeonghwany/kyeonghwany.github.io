@@ -4,9 +4,9 @@ project:
 
 website:
   title: "Kyeonghwany"
+  
   site-url: 'https://kyeonghwany.github.io'
   site-path: '/'
-  
   search: true
   
   navbar:
@@ -26,14 +26,14 @@ format:
     theme:
       - minty
       - custom.scss
-
     toc: true
-    
     code-fold: true
     code-tools: true
     code-copy: true
     code-line-numbers: false
     code-block-background: true
     
+    include-in-header: gtm-header.html
+    include-before-body: gtm-body.html
 execute:
   freeze: auto

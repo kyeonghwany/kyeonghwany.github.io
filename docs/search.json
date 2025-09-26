@@ -7,18 +7,11 @@
     "text": "Quarto website 글꼴 적용 방법\n\n\n\nquarto\n\nscss\n\n\n\nQuarto website의 폰트를 scss를 수정하여 바꾸기\n\n\n\n\n\nMay 7, 2024\n\n\n김경환\n\n\n\n\n\n\n\n\n\n\n\n\ndocker를 이용하여 Rstudio-server 설치하기\n\n\n\ndocker\n\nR\n\n\n\nwindows에서 wsl + docker + Rstudio-server 환경 구축 방법을 정리\n\n\n\n\n\nApr 26, 2024\n\n\n김경환\n\n\n\n\n\n\n\n\n\n\n\n\n공공데이터 품질관리 프로젝트\n\n\n\n공공데이터\n\n데이터 품질관리\n\n\n\n공공데이터 품질관리에 대한 개념과 제가 경험한 평가 대응 방법을 공유합니다.\n\n\n\n\n\nApr 16, 2024\n\n\n김경환\n\n\n\n\n\n\n\n\n\n\n\n\nCallout Blocks\n\n\n\nquarto\n\n\n\nQuarto에서 Callout Blocks 사용 방법\n\n\n\n\n\nSep 17, 2023\n\n\n김경환\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto 문서에서 코드 블럭을 작성하는 방법\n\n\n\nquarto\n\n\n\nqmd 문서에서 여러 언어에 맞는 디자인을 적용하여 코드 블럭 작성하는 방법\n\n\n\n\n\nSep 17, 2023\n\n\n김경환\n\n\n\n\n\n\n\n\n\n\n\n\nGitHub Pages기능을 이용해 Quarto 배포\n\n\n\nquarto\n\ngithub\n\n\n\nQuarto에서 만든 웹사이트, 블로그를 GitHub Pages 기능을 활용해 배포하는 방법입니다.\n\n\n\n\n\nSep 17, 2023\n\n\n김경환\n\n\n\n\n\n\n\n\n\n\n\n\ngit, github, Rstudio 연동하기\n\n\n\ngit\n\nrstudio\n\n\n\nRstudio에서 git과 github를 연동하는 방법\n\n\n\n\n\nJul 5, 2023\n\n\n김경환\n\n\n\n\n\n\n\n\n\n\n\n\nWSL, R, conda 설치 방법\n\n\n\nwsl\n\nR\n\nconda\n\n\n\nwindow 환경과 리눅스(WSL) 환경에서 R과 conda를 설치하는 방법\n\n\n\n\n\nJun 5, 2023\n\n\n김경환\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/2024-04-26-Installing_r_using_docker/2024-04-26-Installing_r_using_docker.html",
-    "href": "posts/2024-04-26-Installing_r_using_docker/2024-04-26-Installing_r_using_docker.html",
-    "title": "docker를 이용하여 Rstudio-server 설치하기",
-    "section": "",
-    "text": "WSL 설명서에 따라 WSL과 Docker Desktop을 설치\nhttps://rocker-project.org/images/에서 이미지 선택 후 pull 및 run\n\n\n\nTerminal\n\ndocker pull rocker/verse\n\n\n\nTerminal\n\ndocker run -ti -e PASSWORD=yourpassword -p 8787:8787 rocker/verse\n\n\nrstudio server 접속(http://localhost:8787/), ID는 rstudio."
-  },
-  {
     "objectID": "posts/2024-04-26-Installing_r_using_docker/2024-04-26-Installing_r_using_docker.html#요약",
     "href": "posts/2024-04-26-Installing_r_using_docker/2024-04-26-Installing_r_using_docker.html#요약",
     "title": "docker를 이용하여 Rstudio-server 설치하기",
-    "section": "",
-    "text": "WSL 설명서에 따라 WSL과 Docker Desktop을 설치\nhttps://rocker-project.org/images/에서 이미지 선택 후 pull 및 run\n\n\n\nTerminal\n\ndocker pull rocker/verse\n\n\n\nTerminal\n\ndocker run -ti -e PASSWORD=yourpassword -p 8787:8787 rocker/verse\n\n\nrstudio server 접속(http://localhost:8787/), ID는 rstudio."
+    "section": "요약",
+    "text": "요약\n\nWSL 설명서에 따라 WSL과 Docker Desktop을 설치\nhttps://rocker-project.org/images/에서 이미지 선택 후 pull 및 run\n\n\n\nTerminal\n\ndocker pull rocker/verse\n\n\n\nTerminal\n\ndocker run -ti -e PASSWORD=yourpassword -p 8787:8787 rocker/verse\n\n\nrstudio server 접속(http://localhost:8787/), ID는 rstudio."
   },
   {
     "objectID": "posts/2024-04-26-Installing_r_using_docker/2024-04-26-Installing_r_using_docker.html#wsl-설치",
@@ -49,18 +42,11 @@
     "text": "컨테이너 실행\nWSL 터미널에서 다음 코드를 통해 컨테이너를 실행합니다.\n\n\nTerminal\n\ndocker run --rm -ti -e PASSWORD=yourpassword -p 8787:8787 rocker/rstudio\n\n컨테이너가 실행되면 http://localhost:8787/를 통해 rstudio-server에 접속할 수 있습니다. ID는 rstudio입니다."
   },
   {
-    "objectID": "posts/2023-09-17-qmd_to_github_pages/2023-09-17-qmd_to_github_pages.html",
-    "href": "posts/2023-09-17-qmd_to_github_pages/2023-09-17-qmd_to_github_pages.html",
-    "title": "GitHub Pages기능을 이용해 Quarto 배포",
-    "section": "",
-    "text": "https://quarto.org/docs/publishing/에서 여러 방식으로 quarto를 배포하는 방법을 소개하고 있습니다. 이번 글에서는 github pages 기능을 이용하여 배포하는 방법을 정리해봤습니다."
-  },
-  {
     "objectID": "posts/2023-09-17-qmd_to_github_pages/2023-09-17-qmd_to_github_pages.html#quarto-웹사이트를-배포하는-방법",
     "href": "posts/2023-09-17-qmd_to_github_pages/2023-09-17-qmd_to_github_pages.html#quarto-웹사이트를-배포하는-방법",
     "title": "GitHub Pages기능을 이용해 Quarto 배포",
-    "section": "",
-    "text": "https://quarto.org/docs/publishing/에서 여러 방식으로 quarto를 배포하는 방법을 소개하고 있습니다. 이번 글에서는 github pages 기능을 이용하여 배포하는 방법을 정리해봤습니다."
+    "section": "Quarto 웹사이트를 배포하는 방법",
+    "text": "Quarto 웹사이트를 배포하는 방법\nhttps://quarto.org/docs/publishing/에서 여러 방식으로 quarto를 배포하는 방법을 소개하고 있습니다. 이번 글에서는 github pages 기능을 이용하여 배포하는 방법을 정리해봤습니다."
   },
   {
     "objectID": "posts/2023-09-17-qmd_to_github_pages/2023-09-17-qmd_to_github_pages.html#렌더링-되는-디렉토리-이름-변경",
@@ -98,32 +84,18 @@
     "text": "Render, commit, push\n이제 Quarto 웹사이트를 렌더링하면 docs 디렉토리에 웹사이트 파일이 생성됩니다. 이제 githup에 push만 하면 끝입니다!\n\n\nTerminal\n\nquarto render\ngit push"
   },
   {
-    "objectID": "posts/2023-09-17-callout_blocks/2023-09-17-callout_blocks.html",
-    "href": "posts/2023-09-17-callout_blocks/2023-09-17-callout_blocks.html",
-    "title": "Callout Blocks",
-    "section": "",
-    "text": "Callout blocks는 글에서 강조를 하거나 보충, 주의를 표현할 수 있도록 합니다.\n\nnotetipwarningcautionimportant\n\n\n\ninput\n\n:::{.callout-note}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nNote\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important.\n\n\n\n\n\n\n\ninput\n\n:::{.callout-tip}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nTip\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important.\n\n\n\n\n\n\n\ninput\n\n:::{.callout-warning}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nWarning\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important.\n\n\n\n\n\n\n\ninput\n\n:::{.callout-caution}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nCaution\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important.\n\n\n\n\n\n\n\ninput\n\n:::{.callout-important}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nImportant\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important."
-  },
-  {
     "objectID": "posts/2023-09-17-callout_blocks/2023-09-17-callout_blocks.html#callout-blocks",
     "href": "posts/2023-09-17-callout_blocks/2023-09-17-callout_blocks.html#callout-blocks",
     "title": "Callout Blocks",
-    "section": "",
-    "text": "Callout blocks는 글에서 강조를 하거나 보충, 주의를 표현할 수 있도록 합니다.\n\nnotetipwarningcautionimportant\n\n\n\ninput\n\n:::{.callout-note}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nNote\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important.\n\n\n\n\n\n\n\ninput\n\n:::{.callout-tip}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nTip\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important.\n\n\n\n\n\n\n\ninput\n\n:::{.callout-warning}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nWarning\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important.\n\n\n\n\n\n\n\ninput\n\n:::{.callout-caution}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nCaution\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important.\n\n\n\n\n\n\n\ninput\n\n:::{.callout-important}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nImportant\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important."
-  },
-  {
-    "objectID": "posts/2023-06-05-computer_setting/2023-06-05_computer_setting.html",
-    "href": "posts/2023-06-05-computer_setting/2023-06-05_computer_setting.html",
-    "title": "WSL, R, conda 설치 방법",
-    "section": "",
-    "text": "c드라이브에 R폴더 생성\n설치파일 다운로드\n\n\nR\nRstudio\nRtools\njdk\n\n\nR과 Rstudio는 C:\\R에 관리자권한으로 설치(기본값으로)\njdk, Rtools는 기본 경로에 설치(기본값으로)."
+    "section": "Callout Blocks",
+    "text": "Callout Blocks\nCallout blocks는 글에서 강조를 하거나 보충, 주의를 표현할 수 있도록 합니다.\n\nnotetipwarningcautionimportant\n\n\n\ninput\n\n:::{.callout-note}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nNote\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important.\n\n\n\n\n\n\n\ninput\n\n:::{.callout-tip}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nTip\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important.\n\n\n\n\n\n\n\ninput\n\n:::{.callout-warning}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nWarning\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important.\n\n\n\n\n\n\n\ninput\n\n:::{.callout-caution}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nCaution\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important.\n\n\n\n\n\n\n\ninput\n\n:::{.callout-important}\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n: `note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\noutput\n\n\n\n\n\n\n\nImportant\n\n\n\n\nCallout blocks에는 5가지 옵션을 사용할 수 있습니다.\n\nnote, tip, warning, caution, and important."
   },
   {
     "objectID": "posts/2023-06-05-computer_setting/2023-06-05_computer_setting.html#r설치jdk도-추가",
     "href": "posts/2023-06-05-computer_setting/2023-06-05_computer_setting.html#r설치jdk도-추가",
     "title": "WSL, R, conda 설치 방법",
-    "section": "",
-    "text": "c드라이브에 R폴더 생성\n설치파일 다운로드\n\n\nR\nRstudio\nRtools\njdk\n\n\nR과 Rstudio는 C:\\R에 관리자권한으로 설치(기본값으로)\njdk, Rtools는 기본 경로에 설치(기본값으로)."
+    "section": "R설치(jdk도 추가)",
+    "text": "R설치(jdk도 추가)\n\nc드라이브에 R폴더 생성\n설치파일 다운로드\n\n\nR\nRstudio\nRtools\njdk\n\n\nR과 Rstudio는 C:\\R에 관리자권한으로 설치(기본값으로)\njdk, Rtools는 기본 경로에 설치(기본값으로)."
   },
   {
     "objectID": "posts/2023-06-05-computer_setting/2023-06-05_computer_setting.html#anaconda3-설치",
@@ -168,18 +140,18 @@
     "text": "conda에서 설치하고 싶은 패키지 검색\n\nconda 패키지 검색"
   },
   {
-    "objectID": "posts/2023-07-05-git_with_rstudio/2023-07-05-git_with_rstudio.html",
-    "href": "posts/2023-07-05-git_with_rstudio/2023-07-05-git_with_rstudio.html",
-    "title": "git, github, Rstudio 연동하기",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "김경환",
     "section": "",
-    "text": "먼저 git설치 및 github계정 생성 후 git bash에서 본인의 이메일과 이름을 입력합니다.\ngit config --global user.email \"you@example.com\"\ngit config --global user.name \"Your Name\""
+    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-THGB5THJ\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;"
   },
   {
     "objectID": "posts/2023-07-05-git_with_rstudio/2023-07-05-git_with_rstudio.html#git-설치-및-계정-입력",
     "href": "posts/2023-07-05-git_with_rstudio/2023-07-05-git_with_rstudio.html#git-설치-및-계정-입력",
     "title": "git, github, Rstudio 연동하기",
-    "section": "",
-    "text": "먼저 git설치 및 github계정 생성 후 git bash에서 본인의 이메일과 이름을 입력합니다.\ngit config --global user.email \"you@example.com\"\ngit config --global user.name \"Your Name\""
+    "section": "git 설치 및 계정 입력",
+    "text": "git 설치 및 계정 입력\n먼저 git설치 및 github계정 생성 후 git bash에서 본인의 이메일과 이름을 입력합니다.\ngit config --global user.email \"you@example.com\"\ngit config --global user.name \"Your Name\""
   },
   {
     "objectID": "posts/2023-07-05-git_with_rstudio/2023-07-05-git_with_rstudio.html#github-연결",
@@ -189,18 +161,11 @@
     "text": "github 연결\n본인의 git을 github과 연결하기 위해서는 shh키를 생성하여 연결해야 합니다. 여러 방법이 있겠지만 Rstudio를 사용한다면 쉽게 연결할 수 있습니다.\n\nrstudio에서 연결하는 방법\n\nrstudio &gt; Tools &gt; Global Options &gt; Git.SVN에서 ssh키 생성하고,\ngithub계정에 ssh키 등록합니다.\n\n\n\n터미널에서 연결하는 방법\ncd ~\nssh-keygen\ncd ~/.ssh\ncat id_rsa.pub\n이후 나타난 문자열을 복사하여 github에 등록합니다."
   },
   {
-    "objectID": "posts/2023-09-17-code_in_qmd/2023-09-17-code_in_qmd.html",
-    "href": "posts/2023-09-17-code_in_qmd/2023-09-17-code_in_qmd.html",
-    "title": "Quarto 문서에서 코드 블럭을 작성하는 방법",
-    "section": "",
-    "text": "qmd에서 코드블럭을 작성할 때는 ```로 감싸서 작성합니다.\n```\ncode\n```"
-  },
-  {
     "objectID": "posts/2023-09-17-code_in_qmd/2023-09-17-code_in_qmd.html#코드-블럭-작성-방법",
     "href": "posts/2023-09-17-code_in_qmd/2023-09-17-code_in_qmd.html#코드-블럭-작성-방법",
     "title": "Quarto 문서에서 코드 블럭을 작성하는 방법",
-    "section": "",
-    "text": "qmd에서 코드블럭을 작성할 때는 ```로 감싸서 작성합니다.\n```\ncode\n```"
+    "section": "코드 블럭 작성 방법",
+    "text": "코드 블럭 작성 방법\nqmd에서 코드블럭을 작성할 때는 ```로 감싸서 작성합니다.\n```\ncode\n```"
   },
   {
     "objectID": "posts/2023-09-17-code_in_qmd/2023-09-17-code_in_qmd.html#다양한-언어에-맞는-디자인-적용",
@@ -266,18 +231,11 @@
     "text": "프로젝트 간 문제 해결\n데이터 품질관리에 대한 개념과 품질진단 툴(DA#, WDQ 등) 활용법만 읽어 보면 쉽게 끝날 수 있는 프로젝트로 보이지만 실무를 하다보니 여러가지 어려움이 있었습니다.\n\n표준이 없었던 정보시스템(DB)에 대한 표준 사전 정의\n평가를 진행했던 DB 23개 중 대부분이 범정부 표준이 제정되기 이전에 구축되었기 때문에 표준이 적용되지 않은 상태였습니다. 만점을 얻기 위해서는 표준적용률 90% 이상을 달성해야하기 때문에 DB내 컬럼을 표준용어로 등록 후 표준도메인, 표준코드, 표준단어를 만들어야 하는 과정이 필요했습니다.\n\n\n\n\n\nflowchart LR\n    A(DB 내 컬럼) --&gt; B[표준 용어]\n    B --&gt; C[표준 도메인]\n    B --&gt; D[표준 코드]\n    B --&gt; E[표준 단어]\n\n\n\n\n\n\n정의된 표준 용어로부터 표준 도메인, 표준 코드, 표준 단어를 만들어 내는 과정은 정해진 규칙에 따라 만들면 되기 때문에 어렵지 않습니다. 하지만 컬럼명에서 표준용어를 만들기 위해서는 각 컬럼명을 확인하여 적절한 도메인 분류명을 정의해줘야 했습니다. 평균적으로 DB 1개 당 등록해야할 표준 용어가 200개 정도라고 한다면 23개 DB를 모두 정의해줘야 했으므로 4600개의 도메인 분류명을 정의해야 했습니다.\n\n도메인분류명 정의 전 표준용어{.hover .bordered}\n\n\n표준용어명\n영문약어명\n표준도메인명\n\n\n\n\nIP주소\nIP_ADDR\n{적절한 도메인명}V15\n\n\n가맹점명\nFRCS_NM\n{적절한 도메인명}V200\n\n\n법정동시도코드\nSTDG_CTPV_CD\n{적절한 도메인명}C2\n\n\n\n수작업으로 컬럼명을 확인하고 분류명을 정하는 작업은 시간이 오래 걸리는 단순 반복 작업입니다. 이를 해결하기 위해 chat gpt API를 활용하여 도메인 분류 모델을 만들었습니다.\n\n\n\n\n\nflowchart LR\n    A[표준 용어] --&gt;|chat gpt API| B[도메인 분류명]\n\n\n\n\n\n\n\n\n컬럼명은 같지만 도메인이 다른 경우\n표준 등록만으로 표준적용율을 올릴 수 없는 경우가 있습니다. DB내 정의된 물리컬럼명은 같지만 정의된 도메인이 다른 경우 입니다. 표준 용어 사전에는 하나의 영문약어명만 등록될 수 있기 때문에 여러 도메인을 가진 동일한 물리컬럼명의 경우 하나의 도메인만 표준을 적용한 것으로 측정됩니다.\n\n컬럼명은 같지만 도메인이 다른 경우\n\n\n테이블명\n물리컬럼명\n데이터 타입\n데이터 길이\n\n\n\n\ntable1\ncolname\nchar\n10\n\n\ntable2\ncolname\nvarchar\n200\n\n\ntable3\ncolname\nvarchar\n100\n\n\ntable4\ncolname\nvarchar\n100\n\n\n\n이 경우 정보시스템 유지보수 담당자와 미팅을 통해 물리컬럼명이나 도메인이 변경이 가능한 지 확인 후 불가능하다면 가장 많이 사용한 도메인을 표준용어의 도메인으로 등록하여 진단을 수행했습니다.\n\n\n프로파일링을 통한 업무규칙 생성\n공공데이터 품질관리 수준평가에서는 진단 대상 컬럼에 대해 진단룰을 설정해야합니다. 이를 위해 프로파일링이라는 과정을 통해 진단룰을 도출해야 합니다.\n프로파일링이란 실제 데이터의 통계 및 패턴 분석을 통해 오류가 추정되는 데이터를 찾아내는 기법입니다.\n\nraw 단계부터 데이터 분석을 수행하다 보면 데이터에 대한 특성 파악, 전처리에 시간이 많이 들곤 합니다. 만약 데이터 표준화와 데이터 품질관리가 잘 갖춰진 데이터라면 이 부분에 대한 시간이 많이 줄어들 수 있을 것으로 예상이 됩니다. 그 이유는,\n\n현행화된 메타데이터를 통해 데이터 특성을 쉽게 파악할 수 있습니다.\n표준화된 데이터이기 때문에 데이터 결합 과정이 수월합니다.\n데이터 품질관리 과정을 통해 산출된 지표를 통해 데이터 품질수준을 파악할 수 있고 고품질 데이터를 확보할 수 있습니다.\n전처리 과정에서 필요한 결측치, 이상치 도출에 대한 힌트를 얻을 수 있습니다.\n\n이 외에도 많은 장점이 있을 것입니다. OECD가 실시한 2023 공공데이터 평가에서 대한민국이 1위를 달성했고 공공데이터 포털 및 여러 플랫폼을 통해서 활용 가능성이 높은 데이터들이 많이 개방된 상태입니다. 앞으로도 공공데이터가 많은 가치를 창출할 수 있는 데이터로 발전할 것으로 기대가 됩니다."
   },
   {
-    "objectID": "posts/2024-05-07-change_font_in_qmd/2024-05-07-change_font_in_qmd.html",
-    "href": "posts/2024-05-07-change_font_in_qmd/2024-05-07-change_font_in_qmd.html",
-    "title": "Quarto website 글꼴 적용 방법",
-    "section": "",
-    "text": "https://fonts.google.com/에서 원하는 폰트를 선택\ncustom.scss를 생성 및 폰트 관련 변수 수정\n\n\n\ncustom.scss\n\n/*-- scss:defaults --*/\n\n$headings-font-family:        \"Hahmlet\", -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n$font-family-sans-serif:      \"Gothic A1\", system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n\n/*-- scss:rules --*/\n\n// Variables\n\n$web-font-path: \"https://fonts.googleapis.com/css2?family=Gothic+A1&family=Hahmlet:wght@100..900&display=swap\";\n@if $web-font-path {\n  @import url($web-font-path);\n}\n\n\n_quarto.yml 수정\n\n\n\n_quarto.yml\n\nformat:\n  html:\n    theme:\n      - custom.scss"
-  },
-  {
     "objectID": "posts/2024-05-07-change_font_in_qmd/2024-05-07-change_font_in_qmd.html#요약",
     "href": "posts/2024-05-07-change_font_in_qmd/2024-05-07-change_font_in_qmd.html#요약",
     "title": "Quarto website 글꼴 적용 방법",
-    "section": "",
-    "text": "https://fonts.google.com/에서 원하는 폰트를 선택\ncustom.scss를 생성 및 폰트 관련 변수 수정\n\n\n\ncustom.scss\n\n/*-- scss:defaults --*/\n\n$headings-font-family:        \"Hahmlet\", -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n$font-family-sans-serif:      \"Gothic A1\", system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n\n/*-- scss:rules --*/\n\n// Variables\n\n$web-font-path: \"https://fonts.googleapis.com/css2?family=Gothic+A1&family=Hahmlet:wght@100..900&display=swap\";\n@if $web-font-path {\n  @import url($web-font-path);\n}\n\n\n_quarto.yml 수정\n\n\n\n_quarto.yml\n\nformat:\n  html:\n    theme:\n      - custom.scss"
+    "section": "요약",
+    "text": "요약\n\nhttps://fonts.google.com/에서 원하는 폰트를 선택\ncustom.scss를 생성 및 폰트 관련 변수 수정\n\n\n\ncustom.scss\n\n/*-- scss:defaults --*/\n\n$headings-font-family:        \"Hahmlet\", -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;\n$font-family-sans-serif:      \"Gothic A1\", system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n\n/*-- scss:rules --*/\n\n// Variables\n\n$web-font-path: \"https://fonts.googleapis.com/css2?family=Gothic+A1&family=Hahmlet:wght@100..900&display=swap\";\n@if $web-font-path {\n  @import url($web-font-path);\n}\n\n\n_quarto.yml 수정\n\n\n\n_quarto.yml\n\nformat:\n  html:\n    theme:\n      - custom.scss"
   },
   {
     "objectID": "posts/2024-05-07-change_font_in_qmd/2024-05-07-change_font_in_qmd.html#google-fonts-선택",
