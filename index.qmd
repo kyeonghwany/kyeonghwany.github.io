@@ -1,0 +1,27 @@
+---
+title: "김경환"
+image: image/profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/kyeonghwany
+    - icon: envelope-at
+      text: Email
+      href: mailto:james160601@gmail.com
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/break_your_pb
+    - icon: pen
+      text: Naver Blog
+      href: https://blog.naver.com/run_my_way
+      
+comments: false
+
+format:
+    html:
+      code-tools: false
+      
+email-obfuscation: javascript
+---

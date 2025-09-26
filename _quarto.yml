@@ -1,19 +1,39 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "kyeonghwany.github.io"
+  title: "Kyeonghwany"
+  site-url: 'https://kyeonghwany.github.io'
+  site-path: '/'
+  
+  search: true
+  
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: posts.qmd
+        text: Posts
+        
+  comments:
+    giscus:
+      repo: kyeonghwany/kyeonghwany.github.io
+      language: ko
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - minty
+      - custom.scss
+
     toc: true
-
-
-
+    
+    code-fold: true
+    code-tools: true
+    code-copy: true
+    code-line-numbers: false
+    code-block-background: true
+    
+execute:
+  freeze: auto
