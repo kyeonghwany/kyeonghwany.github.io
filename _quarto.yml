@@ -24,8 +24,6 @@ website:
 format:
   html:
     template: template.html
-    include-in-header: gtm-header.html
-    include-before-body: gtm-body.html
     theme:
       - minty
       - custom.scss

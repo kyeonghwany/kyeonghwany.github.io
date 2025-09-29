@@ -2,18 +2,28 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$>
 
 <head>
-<!-- htmldependencies:E3FAD763 -->
-$for(header-includes)$
-$header-includes$
-$endfor$
+  
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-THGB5THJ');</script>
+<!-- End Google Tag Manager -->
 
 $metadata.html()$
+
 <meta name="google-site-verification" content="p4tai52aMJZfdmE_hBifD4qFf434pF08ugCqEwbkS9s" />
 <meta name="naver-site-verification" content="17a1ce22b865631787364609982d43ae0bf6a174" />
 
 <style>
 $styles.html()$
 </style>
+
+<!-- htmldependencies:E3FAD763 -->
+$for(header-includes)$
+$header-includes$
+$endfor$
 
 $if(math)$
 $if(mathjax)$
@@ -55,6 +65,11 @@ $endfor$
 </head>
 
 <body>
+  
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THGB5THJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 $for(include-before)$
 $include-before$
